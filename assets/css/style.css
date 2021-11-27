@@ -5,14 +5,32 @@ body {
     font-weight: 300;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: Merriweather, sans-serif;
     letter-spacing: 2px;
-    padding: 40px 20px 40px 20px;
+    text-align: center;
     margin: 4px;
     color: #252525;
 }
 
+h3 {
+    font-family: Merriweather, sans-serif;
+    letter-spacing: 2px;
+    padding: 20px 15px 5px 15px;
+    margin: 4px;
+    color: #252525;
+}
+
+p {
+    margin: 4px;
+    padding: 0 15px;
+}
+
+hr {
+    border: 0.5px solid black;
+    width: 100%;
+    margin-left: 5px;
+}
 
 #menu {
     font-size: 150%;
@@ -27,7 +45,7 @@ h1, h2, h3 {
 
 #menu li {
     list-style-type: none;
-    margin-inline-start: 150pt;
+    margin-inline-start: 170pt;
     padding-top: 35px;
 }
 
