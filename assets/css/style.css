@@ -29,23 +29,23 @@ p {
 hr {
     border: 0.5px solid black;
     width: 100%;
-    margin-left: 5px;
+    margin: 0 5px 0 5px;
 }
 
 #menu {
     font-size: 150%;
-    line-height: 20px;
+    line-height: normal;
     display: flex;
     flex-direction: row;
 
     height: 100px;
     width: 100%;
-    background: url(../images/nav-backgroud-image2.webp) center center;
+    background: url(../images/nav-backgroud-image2.webp) fixed center;
 }
 
 #menu li {
     list-style-type: none;
-    margin-inline-start: 170pt;
+    margin-inline-start: 120pt;
     padding-top: 35px;
 }
 
