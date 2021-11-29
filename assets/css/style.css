@@ -26,6 +26,16 @@ p {
     padding: 0 15px;
 }
 
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin: .5rem;
+    float: right;
+    border-left: 1px solid navy;
+    font-style: italic;
+    color: navy;
+}
+
 hr {
     border: 0.5px solid black;
     width: 100%;
@@ -56,6 +66,10 @@ hr {
 
 #menu a:hover {
     border-bottom: 5px solid black;
+}
+
+#topics p {
+    width: 60%;
 }
 
 /* Social Media section styles*/
