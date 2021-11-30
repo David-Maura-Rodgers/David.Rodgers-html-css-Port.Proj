@@ -38,10 +38,11 @@ aside {
     border-left: 1px solid navy;
     font-style: italic;
     font-weight: bold;
-    background-color: rgb(241, 241, 241, 0.7);
+    background-color: rgba(189, 193, 194, 0.699);
+    background-clip: content-box;
 }
 
-section {
+section  {
 	display: flex;
 }
 
@@ -49,8 +50,13 @@ section p {
 	width: 60%;
 }
 
+img {
+    position: absolute;
+    width: 25%;
+}
 
-/* Nav Menu*/
+
+/* Nav Menu styles*/
 
 hr {
     border: 0.5px solid black;
@@ -58,15 +64,17 @@ hr {
     margin: 15px 0 5px;
 }
 
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu*/
 #menu {
     font-size: 150%;
+    font-weight: 600;
     line-height: normal;
     display: flex;
     flex-direction: row;
 
     height: 100px;
     width: inherit;
-    background: url(../images/nav-menu-9.jpeg) fixed center;
+    background: url(../images/nav-menu-11.jpg) fixed center;
 }
 
 #menu li {
