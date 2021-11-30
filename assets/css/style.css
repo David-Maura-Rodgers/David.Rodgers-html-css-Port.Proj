@@ -27,6 +27,7 @@ p {
     padding: 0 15px;
 }
 
+
 /* Need to check code on Runnable example HTML-36-aside-runnable */
 
 aside {
@@ -51,7 +52,30 @@ section p {
 }
 
 
-/*Home page images*/
+/*Home page images with written content*/
+
+#sleep {
+   width: 150px;
+   width: 150px;
+   padding: 10px 5px;
+}
+
+#exercise {
+    width: 300px;
+    width: 300px;
+    padding: 10px 5px;
+    text-align: center;
+ }
+
+ #medidate {
+    width: 300px;
+    width: 300px;
+    padding: 10px 0 5px 0;
+ }
+
+
+
+/*Home page images under written content in column style*/
 
 #home-images {
     clear: both;
@@ -74,7 +98,9 @@ hr {
     margin: 15px 0 5px;
 }
 
+
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu*/
+
 #menu {
     font-size: 150%;
     font-weight: 600;
@@ -119,7 +145,7 @@ hr {
     color: #3a3a3a;
 }
 
-/* Form */
+/* Form, just code to form some structure at the moment */
 
 .form-section {
     clear: left;
