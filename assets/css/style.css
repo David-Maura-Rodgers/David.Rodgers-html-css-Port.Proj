@@ -22,19 +22,35 @@ h3 {
 }
 
 p {
+    width: 70%;
     margin: 4px;
     padding: 0 15px;
 }
 
+/* Need to check code on Runnable example HTML-36-aside-runnable */
+
 aside {
+    float: right;
     width: 40%;
     padding-left: .5rem;
     margin: .5rem;
-    float: right;
+    color: navy;
     border-left: 1px solid navy;
     font-style: italic;
-    color: navy;
+    font-weight: bold;
+    background-color: rgb(241, 241, 241, 0.7);
 }
+
+section {
+	display: flex;
+}
+
+section p {
+	width: 60%;
+}
+
+
+/* Nav Menu*/
 
 hr {
     border: 0.5px solid black;
@@ -56,7 +72,7 @@ hr {
 #menu li {
     list-style-type: none;
     margin-inline-start: 120pt;
-    padding-top: 35px;
+    padding-top: 35px; 
 }
 
 #menu a {
@@ -68,9 +84,6 @@ hr {
     border-bottom: 5px solid black;
 }
 
-#topics p {
-    width: 60%;
-}
 
 /* Social Media section styles*/
 .social-networks {
