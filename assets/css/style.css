@@ -21,6 +21,20 @@ h3 {
     color: #252525;
 }
 
+h3 a:link {
+    color: #252525; 
+    text-decoration: none;   
+}
+
+h3 a:hover {
+    background-color: rgba(159, 176, 223, 0.9)
+}
+
+h3 a:visited {
+    color: #252525; 
+    text-decoration: none; 
+}
+
 p {
     width: 70%;
     margin: 4px;
@@ -51,6 +65,10 @@ section p {
 	width: 60%;
 }
 
+video {
+    width: 600px;
+    height: 500px;
+}
 
 /*Home page images with written content*/
 
