@@ -79,7 +79,8 @@ hr {
     height: 100px;
     width: inherit;
     margin-top: 0;
-    background: url(../images/nav-menu-9.jpeg) fixed center;
+    /*background: url(../images/nav-menu-9.jpeg) fixed center;*/
+    background-color: rgba(8, 54, 182, 0.336)
 }
 
 #menu li {
@@ -115,6 +116,18 @@ aside {
 
 section  {
 	display: flex;
+}
+
+#section-sleep {
+    display: inline-block;
+}
+
+#section-exercise {
+    display: inline-block;
+}
+
+#section-mindfulness {
+    display: inline-block;
 }
 
 section p {
@@ -182,6 +195,7 @@ video {
 
 .social-networks {
     text-align: center;
+    
 }
 
 .social-networks > li {
