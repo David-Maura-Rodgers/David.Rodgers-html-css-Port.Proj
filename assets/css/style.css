@@ -3,7 +3,7 @@
 body {
     font-family: Titillium Web, sans-serif;
     font-weight: 300;
-    background-color: rgba(197, 205, 214, 0.767);
+    background-color: rgba(220, 225, 230, 0.527);
 }
 
 h2 {
@@ -29,15 +29,9 @@ hr {
 }
 
 .page-titles {
-    float: left;
+    text-align: center;
     padding: 10px 10px;
-    margin-left: 120px;
-}
-
-.page-titles {
-    float: right;
-    padding: 10px 10px;
-    margin-right: 120px;
+    margin: 1%;
 }
 
 .page-titles a:link, .sub-titles a:link {
@@ -86,7 +80,6 @@ hr {
     width: inherit;
     margin-top: 0;
     background: url(../images/nav-menu-9.jpeg) fixed center;
-    
 }
 
 #menu li {
@@ -104,7 +97,7 @@ hr {
     border-bottom: 5px solid black;
 }
 
-
+/*Artilce and Aside - contents within*/
 /* Need to check code on Runnable example HTML-36-aside-runnable */
 
 aside {
@@ -126,12 +119,17 @@ section  {
 
 section p {
 	width: 60%;
-    margin: 4px;
+    text-align: justify;
     padding: 0 15px;
 }
 
 img {
     margin-top: 1%;
+    width: 400px;
+    height: 400px;
+    clear: left;
+    border-radius: 50%;
+    border: navy solid 5px;
 }
 
 video {
@@ -140,7 +138,7 @@ video {
 }
 
 /*Home page images with written content*/
-
+/*
 #sleep {
    width: 150px;
    width: 150px;
@@ -159,7 +157,7 @@ video {
     width: 300px;
     padding: 10px 0 5px 0;
  }
-
+*/
 
 
 /*Home page images under written content in column style*/
