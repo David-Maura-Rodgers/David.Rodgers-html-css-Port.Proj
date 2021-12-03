@@ -3,7 +3,7 @@
 body {
     font-family: Titillium Web, sans-serif;
     font-weight: 300;
-    background-color: rgba(197, 205, 214, 0.521);
+    background-color: rgba(197, 205, 214, 0.767);
 }
 
 h2 {
@@ -54,6 +54,22 @@ hr {
     text-decoration: none;
 }
 
+#back-top a:link {
+    color: #252525;
+    text-decoration: none;
+    text-align: center;
+}
+
+#back-top a:hover {
+    background-color: rgba(159, 176, 223, 0.9)
+}
+
+#back-top a:visited {
+    color: #252525;
+    text-decoration: none;
+    
+}
+
 
 /* Nav Menu styles*/
 
@@ -68,7 +84,9 @@ hr {
 
     height: 100px;
     width: inherit;
-    background: url(../images/nav-menu-11.jpg) fixed center;
+    margin-top: 0;
+    background: url(../images/nav-menu-9.jpeg) fixed center;
+    
 }
 
 #menu li {
