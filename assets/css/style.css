@@ -5,6 +5,18 @@ body {
     font-weight: 300;
 }
 
+#page-name {
+    float: left;
+    padding: 10px 10px;
+    margin-left: 120px;
+}
+
+#strapline {
+    float: right;
+    padding: 10px 10px;
+    margin-right: 120px;
+}
+
 h1, h2 {
     font-family: Merriweather, sans-serif;
     letter-spacing: 2px;
@@ -35,12 +47,6 @@ h3 a:visited {
     text-decoration: none; 
 }
 
-p {
-    width: 70%;
-    margin: 4px;
-    padding: 0 15px;
-}
-
 
 /* Need to check code on Runnable example HTML-36-aside-runnable */
 
@@ -63,6 +69,8 @@ section  {
 
 section p {
 	width: 60%;
+    margin: 4px;
+    padding: 0 15px;
 }
 
 video {
@@ -95,6 +103,7 @@ video {
 
 /*Home page images under written content in column style*/
 
+/* Bottom column images not being used
 #home-images {
     clear: both;
     line-height: 0;
@@ -102,10 +111,12 @@ video {
     column-gap: 0;
 }
 
+
 #home-images > img {
     width: 33%;
     margin-inline-start: .25em;
 }
+*/
 
 
 /* Nav Menu styles*/
