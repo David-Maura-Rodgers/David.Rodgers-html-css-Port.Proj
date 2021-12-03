@@ -3,21 +3,10 @@
 body {
     font-family: Titillium Web, sans-serif;
     font-weight: 300;
+    background-color: rgba(197, 205, 214, 0.521);
 }
 
-#page-name {
-    float: left;
-    padding: 10px 10px;
-    margin-left: 120px;
-}
-
-#strapline {
-    float: right;
-    padding: 10px 10px;
-    margin-right: 120px;
-}
-
-h1, h2 {
+h2 {
     font-family: Merriweather, sans-serif;
     letter-spacing: 2px;
     text-align: center;
@@ -33,18 +22,68 @@ h3 {
     color: #252525;
 }
 
-h3 a:link {
-    color: #252525; 
-    text-decoration: none;   
+hr {
+    border: 0.5px solid black;
+    width: 100%;
+    margin: 15px 0 5px;
 }
 
-h3 a:hover {
+.page-titles {
+    float: left;
+    padding: 10px 10px;
+    margin-left: 120px;
+}
+
+.page-titles {
+    float: right;
+    padding: 10px 10px;
+    margin-right: 120px;
+}
+
+.page-titles a:link, .sub-titles a:link {
+    color: #252525;
+    text-decoration: none;
+    }
+
+.page-titles a:hover, .sub-titles a:hover {
     background-color: rgba(159, 176, 223, 0.9)
 }
 
-h3 a:visited {
-    color: #252525; 
-    text-decoration: none; 
+.page-titles a:visited, .sub-titles a:visited {
+    color: #252525;
+    text-decoration: none;
+}
+
+
+/* Nav Menu styles*/
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu*/
+
+#menu {
+    font-size: 150%;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+
+    height: 100px;
+    width: inherit;
+    background: url(../images/nav-menu-11.jpg) fixed center;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-inline-start: 120pt;
+    padding-top: 35px; 
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 5px solid black;
 }
 
 
@@ -71,6 +110,10 @@ section p {
 	width: 60%;
     margin: 4px;
     padding: 0 15px;
+}
+
+img {
+    margin-top: 1%;
 }
 
 video {
@@ -119,46 +162,8 @@ video {
 */
 
 
-/* Nav Menu styles*/
-
-hr {
-    border: 0.5px solid black;
-    width: 100%;
-    margin: 15px 0 5px;
-}
-
-
-/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu*/
-
-#menu {
-    font-size: 150%;
-    font-weight: 600;
-    line-height: normal;
-    display: flex;
-    flex-direction: row;
-
-    height: 100px;
-    width: inherit;
-    background: url(../images/nav-menu-11.jpg) fixed center;
-}
-
-#menu li {
-    list-style-type: none;
-    margin-inline-start: 120pt;
-    padding-top: 35px; 
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 5px solid black;
-}
-
-
 /* Social Media section styles*/
+
 .social-networks {
     text-align: center;
 }
@@ -169,9 +174,9 @@ hr {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%; 
-    padding: 5%;
-    color: #3a3a3a;
+    margin: 0.5%; 
+    padding: 2%;
+    color: #252525;
 }
 
 /* Form, just code to form some structure at the moment */
