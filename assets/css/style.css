@@ -22,6 +22,7 @@ h3 {
     color: #252525;
 }
 
+
 hr {
     border: 0.5px solid black;
     width: 100%;
@@ -164,52 +165,10 @@ img {
 }
 
 
-/*Home page images with written content*/
-/*
-#sleep {
-   width: 150px;
-   width: 150px;
-   padding: 10px 5px;
-}
-
-#exercise {
-    width: 300px;
-    width: 300px;
-    padding: 10px 5px;
-    text-align: center;
- }
-
- #medidate {
-    width: 300px;
-    width: 300px;
-    padding: 10px 0 5px 0;
- }
-*/
-
-
-/*Home page images under written content in column style*/
-
-/* Bottom column images not being used
-#home-images {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0;
-}
-
-
-#home-images > img {
-    width: 33%;
-    margin-inline-start: .25em;
-}
-*/
-
-
 /* Social Media section styles*/
 
 .social-networks {
     text-align: center;
-    
 }
 
 .social-networks > li {
