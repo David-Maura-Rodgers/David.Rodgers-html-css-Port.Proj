@@ -182,6 +182,16 @@ img {
     color: #252525;
 }
 
+/* Videos in Sleep, Execise and Midfulness pages */
+video {
+    position: relative;
+    bottom: 8.5em;
+    clear: both;
+    float: right;
+    width: 500px;
+    height: 600px;
+}
+
 /* Form, just code to form some structure at the moment */
 
 .form-section {
