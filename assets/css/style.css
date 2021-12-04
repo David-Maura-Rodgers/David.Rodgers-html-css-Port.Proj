@@ -34,7 +34,7 @@ hr {
     margin: 1%;
 }
 
-.page-titles a:link, .sub-titles a:link, td a {
+.page-titles a:link, .sub-titles a:link, td a, li a {
     color: #252525;
     text-decoration: none;
     }
@@ -43,13 +43,13 @@ hr {
     background-color: rgba(159, 176, 223, 0.9)
 }
 
-.page-titles a:visited, .sub-titles a:visited, td a {
+.page-titles a:visited, .sub-titles a:visited, td a, li a {
     color: #252525;
     text-decoration: none;
 }
 
 .back-top {
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .back-top a:link {
@@ -83,7 +83,11 @@ hr {
     width: inherit;
     margin-top: 0;
     /*background: url(../images/nav-menu-9.jpeg) fixed center;*/
-    background-color: rgba(8, 54, 182, 0.336)
+    /* https://blog.logrocket.com/advanced-effects-with-css-background-blend-modes-4b750198522a/ */
+    background: linear-gradient(lightblue, transparent),
+                linear-gradient(to top left, navy, transparent),
+                linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
 }
 
 #menu li {
@@ -186,7 +190,7 @@ img {
     font-size: 160%;
     margin: 0.5%; 
     padding: 2%;
-    color: #252525;
+    color: navy;
 }
 
 /* Videos in Sleep, Execise and Midfulness pages */
