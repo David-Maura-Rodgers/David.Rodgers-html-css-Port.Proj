@@ -22,7 +22,6 @@ h3 {
     color: #252525;
 }
 
-
 hr {
     border: 0.5px solid black;
     width: 100%;
@@ -193,6 +192,27 @@ video {
     height: 600px;
     width: 25%    !important;
     height: auto   !important;
+}
+
+/* Table styling */
+table th {
+    margin: 2px;
+    padding: 5px;
+    font-family: Merriweather, sans-serif;
+    letter-spacing: 2px;
+}
+
+table th {
+    text-align: center;
+}
+
+table td {
+    text-align: center;
+}
+
+table tr td {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Form, just code to form some structure at the moment */
