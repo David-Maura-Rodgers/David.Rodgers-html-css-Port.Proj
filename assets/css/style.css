@@ -183,13 +183,16 @@ img {
 }
 
 /* Videos in Sleep, Execise and Midfulness pages */
+/* https://css-tricks.com/fluid-width-video */
 video {
     position: relative;
-    bottom: 8.5em;
+    bottom: 0.5em;
     clear: both;
     float: right;
     width: 500px;
     height: 600px;
+    width: 25%    !important;
+    height: auto   !important;
 }
 
 /* Form, just code to form some structure at the moment */
