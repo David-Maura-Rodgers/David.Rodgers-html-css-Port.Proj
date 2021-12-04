@@ -34,7 +34,7 @@ hr {
     margin: 1%;
 }
 
-.page-titles a:link, .sub-titles a:link {
+.page-titles a:link, .sub-titles a:link, td a {
     color: #252525;
     text-decoration: none;
     }
@@ -43,7 +43,7 @@ hr {
     background-color: rgba(159, 176, 223, 0.9)
 }
 
-.page-titles a:visited, .sub-titles a:visited {
+.page-titles a:visited, .sub-titles a:visited, td a {
     color: #252525;
     text-decoration: none;
 }
