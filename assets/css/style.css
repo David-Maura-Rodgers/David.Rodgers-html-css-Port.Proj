@@ -48,17 +48,21 @@ hr {
     text-decoration: none;
 }
 
-#back-top a:link {
+.back-top {
+    margin-top: 50px;
+}
+
+.back-top a:link {
     color: #252525;
     text-decoration: none;
     text-align: center;
 }
 
-#back-top a:hover {
+.back-top a:hover {
     background-color: rgba(159, 176, 223, 0.9)
 }
 
-#back-top a:visited {
+.back-top a:visited {
     color: #252525;
     text-decoration: none;
 }
@@ -163,6 +167,10 @@ img {
     border: navy solid 5px;
 }
 
+#study {
+    margin-left: 5px;
+}
+
 
 /* Social Media section styles*/
 
@@ -183,6 +191,7 @@ img {
 
 /* Videos in Sleep, Execise and Midfulness pages */
 /* https://css-tricks.com/fluid-width-video */
+
 video {
     position: relative;
     bottom: 0.5em;
@@ -195,6 +204,16 @@ video {
 }
 
 /* Table styling */
+
+table {
+    margin: 20px;
+}
+
+table th, td {
+    margin: 25px 0 25px 5px;
+    border: solid navy 0.5px;
+}
+
 table th {
     margin: 2px;
     padding: 5px;
