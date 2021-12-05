@@ -129,8 +129,13 @@ aside {
     border-left: 1px solid navy;
     font-style: italic;
     font-weight: bold;
+    
     background-color: rgba(189, 193, 194, 0.699);
     background-clip: content-box;
+}
+
+aside > p {
+    margin: 1.5rem;
 }
 
 section  {
@@ -323,7 +328,24 @@ table th, tr, td {
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
+
 @media screen and (max-width: 1200px) {
+    
+    nav {
+        clear: left;
+        float: left;
+        width: 60%;
+        display: flexbox;
+        line-height: 25px;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        width: 60%;
+        line-height: 25px;
+    }
+    
     #club-ethos {
         width: 65%;
         height: 1200px;
