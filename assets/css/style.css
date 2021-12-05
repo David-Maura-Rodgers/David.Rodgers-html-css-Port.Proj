@@ -39,7 +39,7 @@ hr {
     text-decoration: none;
     }
 
-.page-titles a:hover, .sub-titles a:hover, td a:hover, li a:hover {
+.page-titles a:hover, .sub-titles a:hover, td a:hover, .study li a:hover {
     /* background-color: rgba(159, 176, 223, 0.9) */
 
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew() */
