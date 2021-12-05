@@ -349,6 +349,11 @@ table th, tr, td {
         float: left;
     }
 
+    section {
+        clear: both;
+        float: left;
+    }
+
     iframe {
         clear: both;
         float: left;
