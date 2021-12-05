@@ -335,7 +335,6 @@ table th, tr, td {
         clear: left;
         float: left;
         width: 60%;
-        display: flexbox;
         line-height: 25px;
     }
 
@@ -343,8 +342,34 @@ table th, tr, td {
         clear: left;
         float: left;
         width: 60%;
-        line-height: 25px;
     }
+
+    .page-titles {
+        clear: both;
+        float: left;
+    }
+
+    iframe {
+        clear: both;
+        float: left;
+    }
+
+    aside {
+        clear: both;
+        float: left;
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+    }
+
+    hr {
+        display: none;
+    }
+
+
+    -------------------------------
     
     #club-ethos {
         width: 65%;
@@ -375,10 +400,6 @@ table th, tr, td {
         clear: both;
         height: 150px;
         padding: 0;
-    }
-
-    hr {
-        display: none;
     }
 }
 
