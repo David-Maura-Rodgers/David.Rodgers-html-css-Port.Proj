@@ -334,19 +334,45 @@ table th, tr, td {
     nav {
         clear: left;
         float: left;
-        width: 60%;
         line-height: 25px;
     }
 
     #menu {
         clear: left;
         float: left;
+    }
+
+    #menu li {
+        clear: left;
         width: 60%;
     }
 
     .page-titles {
         clear: both;
         float: left;
+    }
+
+    .sub-titles {
+        clear: both;
+        float: left;
+    }
+
+    .back-top {
+        clear: both;
+        float: left;
+    }
+
+    .social-networks {
+        clear: both;
+    }
+
+    .social-networks > li {
+        clear: both;
+        display: inline;
+    }
+
+    .social-networks i {
+            clear: both;   
     }
 
     section {
@@ -357,6 +383,13 @@ table th, tr, td {
     iframe {
         clear: both;
         float: left;
+    }
+
+    video {
+        clear: both;
+        display: inline-block;
+        
+
     }
 
     aside {
