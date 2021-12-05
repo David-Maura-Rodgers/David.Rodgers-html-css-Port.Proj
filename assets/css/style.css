@@ -188,7 +188,7 @@ ol {
 }
 
 img {
-    margin-top: 1%;
+    margin: 1% 0 0 1%;
     width: 400px;
     height: 400px;
     clear: left;
@@ -281,9 +281,11 @@ table th, tr, td {
     margin: 15px 0 30px 0;
 }
 
+/*
 .radio-input:required {
-    background: red;
+    border: red;
   }
+*/
 
 .text-input:hover {
     border-color: rgba(220, 225, 230, 0.527);
@@ -304,6 +306,12 @@ table th, tr, td {
     color: #252525;
     text-decoration: none;
     text-align: center;
+}
+
+.join-button:hover {
+    color: #252525;
+    transform: skew(-10deg);
+    font-weight: bolder;
 }
 
 .join-button a:visited {
