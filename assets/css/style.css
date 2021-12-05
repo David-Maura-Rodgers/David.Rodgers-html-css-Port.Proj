@@ -189,7 +189,7 @@ img {
 .social-networks i {
     font-size: 160%;
     margin: 0.5%; 
-    padding: 2%;
+    padding: 5%;
     color: navy;
 }
 
@@ -207,7 +207,7 @@ video {
     height: auto   !important;
 }
 
-/* Table styling */
+/* Table styling for sleep, exercise and mindfulness pages  */
 
 table {
     margin: 20px;
