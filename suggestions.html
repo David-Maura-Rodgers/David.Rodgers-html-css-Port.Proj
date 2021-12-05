@@ -31,12 +31,28 @@
         </nav>
     </header>
 
+    <hr>
+        <h2 class="page-titles"><a href="index.html">Mind and Body Maintenance</a></h2>
+        <h2 class="page-titles"><a href="suggestions.html">Ideas for healthy minds and bodies</a></h2>
+        <hr>
+
+        <h3 class="sub-titles"><a href="suggestions.html">Your suggestions for the site</a></h3>
+        <section id="section-suggestions">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultrices diam. In odio turpis, hendrerit sit 
+            amet quam vitae, condimentum pharetra lorem. Quisque felis sem, interdum non consequat eget, dignissim vel erat. 
+            Nullam blandit luctus pretium. Proin a laoreet ex, non accumsan mauris. Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ultrices diam. In odio turpis, hendrerit sit 
+            amet quam vitae, condimentum pharetra lorem. Quisque felis sem, interdum non consequat eget, dignissim vel erat. 
+            Nullam blandit luctus pretium. Proin a laoreet ex, non accumsan mauris. Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit.
+        </p>
+
     <form method="post" action="https://formdump.codeinstitute.net/" class="suggestions-form">
         <h2>Please let us know your thoughts and suggestions for content on this site <i class="far fa-lightbulb"></i></h2>
 
         <div>
         <label for="age">Age Group:</label>
-        <select name="age" id="age">
+        <select class="age" name="age" id="age">
             <option value="16-24">16-24</option>
             <option value="25-30">25-30</option>
             <option value="31-36">25-30</option>
@@ -49,31 +65,79 @@
         <div>
         <label for="fname">First Name</label>
         <input id="fname" class="text-input" name="first_name" type="text" required>
+
+        <label for="fname">Last Name</label>
+        <input id="lname" class="text-input" name="last_name" type="text" required>
             
         <label for="email">Email Address</label>
         <input id="email" class="text-input" name="email_address" type="email" required>
-            
-        <label for="road">Road</label>
-        <input type="radio" id="road" name="running_preference" value="road" required>
+
+
+        Which of the below is most important to you in your daily life?<br>
+        <label for="sleep">Sleep</label>
+        <input type="radio" id="sleep" class="radio-input" name="preference" value="sleep" required>
+
+        <label for="road">Exercise</label>
+        <input type="radio" id="exercise" class="radio-input" name="preference" value="exercise" required>
+
+        <label for="road">Mindfulness</label>
+        <input type="radio" id="mindfulness" class="radio-input" name="preference" value="mindfulness" required><br>
+
+
+        Which page on the site has the most relvant content for you?<br>
+        <label for="sleep">Sleep</label>
+        <input type="radio" id="sleep" class="radio-input" name="preference" value="sleep" required>
+
+        <label for="road">Exercise</label>
+        <input type="radio" id="exercise" class="radio-input" name="preference" value="exercise" required>
+
+        <label for="road">Mindfulness</label>
+        <input type="radio" id="mindfulness" class="radio-input" name="preference" value="mindfulness" required> <br>
+
+
+        Which page on the webiste would youy like to see more links and content for?<br>
+        <label for="sleep">Sleep</label>
+        <input type="radio" id="sleep" class="radio-input" name="preference" value="sleep" required>
+
+        <label for="road">Exercise</label>
+        <input type="radio" id="exercise" class="radio-input" name="preference" value="exercise" required>
+
+        <label for="road">Mindfulness</label>
+        <input type="radio" id="mindfulness" class="radio-input" name="preference" value="mindfulness" required>   
+
         </div>   
 
         <div>
 		<label for="feedback">Please enter you suggestions in this box</label>
 		<br>
-		<textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+		<textarea id="feedback" rows="8" cols="87" name="feedback"></textarea>
 		</div>
         
-        <input class="join-button" type="submit" value="placeholder">
-
+        <input class="join-button" type="submit" value="SUBMIT">
     </form>
 
+    <h3 class="back-top"><a href="#top">Back to top of page</a></h3>
+
+
     <footer>
+        <hr>
         <ul class="social-networks">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li>
+            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in new tab)">
+                <i class="fab fa-facebook"></i></a>
+            </li>    
+            <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in new tab)">
+                <i class="fab fa-twitter"></i></a>
+            <li>
+            <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in new tab)">
+                <i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in new tab)">
+                <i class="fab fa-instagram"></i></a>
+            </li>
         </ul>
+        <hr>
     </footer>
 
     <!-- Font awesome script -->

@@ -131,6 +131,38 @@ section  {
 	display: flex;
 }
 
+#section-sleep {
+    display: inline-block;
+}
+
+#section-exercise {
+    display: inline-block;
+}
+
+#section-mindfulness {
+    display: inline-block;
+}
+
+#section-suggestions {
+    width: 100%;
+    display: inline-block;
+}
+
+#section-suggestions p {
+    width: 100%;
+}
+
+section p {
+	width: 60%;
+    display: inline-block;
+    text-align: left;
+    padding: 0 15px;
+}
+
+#study {
+    margin-left: 5px;
+}
+
 #home-sleep-li {
     position: absolute;
     right: 60%;
@@ -149,25 +181,6 @@ section  {
     bottom: -137%;
 }
 
-#section-sleep {
-    display: inline-block;
-}
-
-#section-exercise {
-    display: inline-block;
-}
-
-#section-mindfulness {
-    display: inline-block;
-}
-
-section p {
-	width: 60%;
-    display: inline-block;
-    text-align: left;
-    padding: 0 15px;
-}
-
 img {
     margin-top: 1%;
     width: 400px;
@@ -175,10 +188,6 @@ img {
     clear: left;
     border-radius: 50%;
     border: navy solid 5px;
-}
-
-#study {
-    margin-left: 5px;
 }
 
 
@@ -210,8 +219,9 @@ video {
     width: 500px;
     height: 600px;
     width: 25%    !important;
-    height: auto   !important;
+    height: auto  !important;
 }
+
 
 /* Table styling for sleep, exercise and mindfulness pages  */
 
@@ -246,28 +256,23 @@ table tr td {
 
 /* Form, just code to form some structure at the moment */
 
-.form-section {
-    clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
-
 .suggestions-form {
-    clear: top;
-    margin: 150px 10% 0 0;
+    margin: 15px;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background: linear-gradient(rgba(220, 225, 230, 0.527), transparent),
+                linear-gradient(to top left, navy, transparent),
+                linear-gradient(to top right, rgb(7, 87, 207), transparent);
+
     max-width: 700px;
     position: relative;
-    left: 10%;
+    left: 2.5%;
     padding: 30px;
 }
 
-.signup-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
+.age {
+    margin: 5px 0 20px 0;
+    padding: 5px;
 }
 
 .text-input {
@@ -280,8 +285,16 @@ table tr td {
     border-radius: 2px;
 }
 
+.radio-input {
+    display: inline-block;
+    color: #fafafa;
+    width: 10%;
+    height: 25px;
+    margin: 15px 0 30px 0;
+}
+
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: rgba(220, 225, 230, 0.527);
 }
 
 .join-button {
@@ -290,7 +303,28 @@ table tr td {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: rgba(220, 225, 230, 0.527);
     color: #fafafa;
     display: block;
 }
+
+.join-button a:link {
+    color: #252525;
+    text-decoration: none;
+    text-align: center;
+}
+
+.join-button a:visited {
+    color: #252525;
+    text-decoration: none;
+}
+
+/*
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+*/
