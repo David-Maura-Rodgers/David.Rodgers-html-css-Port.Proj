@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Titillium+Web:wght@400&display=swap');
 
 body {
-    font-family: Titillium Web, sans-serif;
+    font-family: Titillium Web, sans-serif; 
     font-weight: 400;
     background-color: rgba(220, 225, 230, 0.527);
 }
@@ -62,7 +62,7 @@ hr {
 }
 
 .back-top a:hover {
-    background-color: rgba(159, 176, 223, 0.9)
+    border-bottom: navy 2px solid;
 }
 
 .back-top a:visited {
@@ -90,9 +90,9 @@ hr {
 
     /* https://blog.logrocket.com/advanced-effects-with-css-background-blend-modes-4b750198522a/ */
     
-    background: linear-gradient(lightblue, transparent),
+    background: linear-gradient(rgba(220, 225, 230, 0.527), transparent),
                 linear-gradient(to top left, navy, transparent),
-                linear-gradient(to top right, blue, transparent);
+                linear-gradient(to top right, rgb(7, 87, 207), transparent);
     background-blend-mode: screen;
 }
 
@@ -111,7 +111,7 @@ hr {
     border-bottom: 4px solid black;
 }
 
-/*Artilce and Aside - contents within*/
+/*Section and Aside - contents within*/
 /* Need to check code on Runnable example HTML-36-aside-runnable */
 
 aside {
