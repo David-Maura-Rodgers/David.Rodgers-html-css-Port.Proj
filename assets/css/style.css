@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Titillium+Web:wght@400&display=swap');
 
 body {
     font-family: Titillium Web, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     background-color: rgba(220, 225, 230, 0.527);
 }
 
@@ -108,7 +108,7 @@ hr {
 }
 
 #menu a:hover {
-    border-bottom: 5px solid black;
+    border-bottom: 4px solid black;
 }
 
 /*Artilce and Aside - contents within*/
