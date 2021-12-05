@@ -49,7 +49,7 @@ hr {
 }
 
 .back-top {
-    margin-top: 90px;
+    margin-top: 75px;
 }
 
 .back-top a:link {
@@ -189,7 +189,7 @@ img {
 .social-networks i {
     font-size: 160%;
     margin: 0.5%; 
-    padding: 5%;
+    padding: 2% 5% 2% 5%;
     color: navy;
 }
 
