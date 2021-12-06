@@ -142,11 +142,6 @@ aside > p {
 
 section  {
 	display: flex;
-}
-
-section p {
-    display: inline-block;
-    text-align: left;
     padding: 0 15px;
 }
 
@@ -170,14 +165,7 @@ section p {
 
 #section-suggestions {
     display: inline-block;
-    text-align: left;
-    padding: 0 15px;
-}
-
-#section-suggestions p {
-    width: 1490px;
-    text-align: left;
-    padding: 0 15px;
+    text-align: left;  
 }
 
 ol {
@@ -454,6 +442,13 @@ table th, tr, td {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+    }
+
+    video {
+        clear: both;
+        margin-left: 25%;
+        width: 50%   !important;
+        height: 50%  !important;
     }
     
     section {
