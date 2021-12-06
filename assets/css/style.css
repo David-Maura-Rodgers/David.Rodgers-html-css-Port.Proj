@@ -245,6 +245,12 @@ table th, tr, td {
     padding: 2%;      
 }
 
+.suggestions-form textarea {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;  
+}
+
 .age {
     margin: 5px 0 20px 0;
     padding: 5px;
