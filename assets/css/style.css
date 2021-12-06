@@ -373,30 +373,37 @@ table th, tr, td {
             clear: both;   
     }
 
-    section {
-        clear: both;
-        float: left;
-    }
-
     iframe {
         clear: both;
         float: left;
+        margin: 0 auto;
+        padding: 0;
     }
 
     video {
         clear: both;
         display: inline-block;
-        margin: 1%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    section {
+        clear: both;
+        margin: 15%;
+        display: inline;
     }
 
     aside {
         clear: both;
-        float: left;
+        position: relative;
+        display: block;
+        margin-right: 58%;
     }
 
     img {
-        width: 400px;
-        height: 400px;
+        width: 200px;
+        height: 200px;
+        display:block;
     }
 
     hr {
@@ -441,6 +448,11 @@ table th, tr, td {
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
+
+
+-------------------------------------------
+
+
     #menu {
         clear: left;
         float: left;
@@ -473,3 +485,4 @@ table th, tr, td {
         padding: 0 20px;
     }
 }
+
