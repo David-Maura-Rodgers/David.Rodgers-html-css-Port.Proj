@@ -148,24 +148,25 @@ section  {
 #section-sleep {
     display: inline-block;
     text-align: left;
-    padding: 0 15px;
+    margin: 1%
 }
 
 #section-exercise {
     display: inline-block;
     text-align: left;
-    padding: 0 15px;
+    margin: 1%
 }
 
 #section-mindfulness {
     display: inline-block;
     text-align: left;
-    padding: 0 15px;
+    margin: 1%
 }
 
 #section-suggestions {
     display: inline-block;
-    text-align: left;  
+    text-align: left;
+    margin: 1%
 }
 
 ol {
@@ -241,8 +242,7 @@ table th, tr, td {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding: 2%;
-            
+    padding: 2%;      
 }
 
 .age {
@@ -353,13 +353,26 @@ table th, tr, td {
         margin-right: auto;
         width: 50%;
     }
+
+    .suggestions-form {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 2%;      
+    }
+
+    .suggestions-form textarea {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;  
+    }
     
     section {
         clear: both;
         display: inline;
     }
 
-    .section-sleep {
+    .section-suggestions {
         clear: both;
         display: inline;
         margin-left: auto;
@@ -451,12 +464,26 @@ table th, tr, td {
         height: 50%  !important;
     }
     
+    .suggestions-form {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding: 2%;      
+    }
+
+    .suggestions-form textarea {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;  
+    }
+
     section {
         clear: both;
         display: inline;
+        margin: 1%
     }
 
-    .section-sleep {
+    .section-suggestions {
         clear: both;
         display: inline;
         margin-left: auto;
