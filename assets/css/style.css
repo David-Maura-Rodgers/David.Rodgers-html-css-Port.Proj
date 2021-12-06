@@ -92,8 +92,6 @@ hr {
     width: inherit;
     margin-top: 0;
 
-    /*background: url(../images/nav-menu-9.jpeg) fixed center;*/
-
     /* https://blog.logrocket.com/advanced-effects-with-css-background-blend-modes-4b750198522a/ */
     
     background: linear-gradient(rgba(220, 225, 230, 0.527), transparent),
@@ -388,8 +386,7 @@ table th, tr, td {
     video {
         clear: both;
         display: inline-block;
-        
-
+        margin: 1%;
     }
 
     aside {
