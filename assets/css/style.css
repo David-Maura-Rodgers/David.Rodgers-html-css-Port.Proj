@@ -330,19 +330,15 @@ table th, tr, td {
 @media screen and (max-width: 1200px) {
     
     nav {
-        clear: left;
-        float: left;
-        line-height: 25px;
+        display: flexbox;
     }
 
     #menu {
-        clear: left;
-        float: left;
+        display: flexbox;
     }
 
     #menu li {
-        clear: left;
-        width: 60%;
+        display: flexbox;
     }
 
     .page-titles {
@@ -376,7 +372,6 @@ table th, tr, td {
     iframe {
         clear: both;
         float: left;
-        display: none;
     }
 
     video {
@@ -387,8 +382,6 @@ table th, tr, td {
         clear: both;
         display: inline;
     }
-
-
 
     aside {
         clear: both;
@@ -406,80 +399,80 @@ table th, tr, td {
     hr {
         display: none;
     }
-
-
-    -------------------------------
-    
-    #club-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
 }
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-
-
--------------------------------------------
-
+    nav {
+        display: flexbox;
+    }
 
     #menu {
-        clear: left;
+        display: flexbox;
+    }
+
+    #menu li {
+        display: flexbox;
+    }
+
+    .page-titles {
+        clear: both;
         float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
     }
 
-    #cover-text {
-        left: 0;
+    .sub-titles {
+        clear: both;
+        float: left;
     }
 
-    #club-ethos {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
+    .back-top {
+        clear: both;
+        float: left;
     }
 
-    .left-about-heading, .right-about-heading {
-        width: inherit;
+    .social-networks {
+        clear: both;
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
+    .social-networks > li {
+        clear: both;
+        display: inline;
     }
 
-    .left-about-heading p, .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
+    .social-networks i {
+            clear: both;   
+    }
+
+    iframe {
+        clear: both;
+        float: left;
+    }
+
+    video {
+        float: inline-end;
+    }
+
+    section {
+        clear: both;
+        display: inline;
+    }
+
+    aside {
+        clear: both;
+        position: relative;
+        display: block;
+        margin-right: 58%;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        display:block;
+    }
+
+    hr {
+        display: none;
     }
 }
 
