@@ -120,7 +120,6 @@ hr {
 aside {
     float: right;
     width: 40%;
-    padding-left: .5rem;
     margin: .5rem;
     color: navy;
     border-left: 1px solid navy;
@@ -201,10 +200,9 @@ img {
 /* https://css-tricks.com/fluid-width-video */
 
 video {
-    position: relative;
-    bottom: 0.5em;
     clear: both;
-    float: right;
+    flex-wrap: wrap;
+    margin: 1%;
     width: 500px;
     height: 600px;
     width: 25%    !important;
@@ -414,6 +412,10 @@ table th, tr, td {
     }
 }
 
+
+
+
+
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
@@ -452,8 +454,8 @@ table th, tr, td {
     aside {
         clear: both;
         text-align: center;
-        display:inline-flex;
-        margin-right: 15rem;
+        display: inline-block;
+        margin-right: 7.5em;;
         width: 50%;
     }
     
@@ -461,7 +463,7 @@ table th, tr, td {
         clear: both;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 100%;
     }
     /*
     video {
