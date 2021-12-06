@@ -40,6 +40,12 @@ hr {
     margin: 1%;
 }
 
+.sub-titles {
+    text-align: left;
+    padding: 10px;
+    margin-left: 1em;
+}
+
 .page-titles a:link, .sub-titles a:link, td a:link, li a:link {
     color: #252525;
     text-decoration: none;
@@ -138,30 +144,39 @@ section  {
 	display: flex;
 }
 
+section p {
+    display: inline-block;
+    text-align: left;
+    padding: 0 15px;
+}
+
 #section-sleep {
     display: inline-block;
+    text-align: left;
+    padding: 0 15px;
 }
 
 #section-exercise {
     display: inline-block;
+    text-align: left;
+    padding: 0 15px;
 }
 
 #section-mindfulness {
     display: inline-block;
+    text-align: left;
+    padding: 0 15px;
 }
 
 #section-suggestions {
     display: inline-block;
+    text-align: left;
+    padding: 0 15px;
 }
 
 #section-suggestions p {
     width: 1490px;
-    text-align: justify;
-}
-
-section p {
-    display: inline-block;
-    text-align: center;
+    text-align: left;
     padding: 0 15px;
 }
 
@@ -196,6 +211,7 @@ img {
     color: navy;
 }
 
+
 /* Videos in Sleep, Execise and Midfulness pages */
 /* https://css-tricks.com/fluid-width-video */
 
@@ -223,7 +239,8 @@ table th, tr, td {
     text-align: center;
 }
 
-/* Form, just code to form some structure at the moment */
+
+/* Form for suggestions page*/
 
 .suggestions-form {
     margin: 15px;
@@ -233,10 +250,11 @@ table th, tr, td {
                 linear-gradient(to top left, navy, transparent),
                 linear-gradient(to top right, rgb(7, 87, 207), transparent);
 
-    max-width: 700px;
-    position: relative;
-    left: 2.5%;
-    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 2%;
+            
 }
 
 .age {
@@ -261,12 +279,6 @@ table th, tr, td {
     height: 25px;
     margin: 15px 0 30px 0;
 }
-
-/*
-.radio-input:required {
-    border: red;
-  }
-*/
 
 .text-input:hover {
     border-color: rgba(220, 225, 230, 0.527);
@@ -306,15 +318,6 @@ table th, tr, td {
 /* For larger to medium screens size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-/*    
-    #menu {
-        display: flex;
-    }
-
-    #menu > * {
-        width: 100%;
-    }
-    */
 
     #menu li {
         flex-wrap: wrap;
@@ -362,20 +365,10 @@ table th, tr, td {
         margin-right: auto;
         width: 50%;
     }
-    /*
-    video {
-        float: inline-end;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-    */
+    
     section {
         clear: both;
         display: inline;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
     }
 
     .section-sleep {
@@ -411,9 +404,6 @@ table th, tr, td {
         display: none;
     }
 }
-
-
-
 
 
 /* For medium screen sizes from 950px wide and down */
@@ -465,20 +455,10 @@ table th, tr, td {
         margin-right: auto;
         width: 100%;
     }
-    /*
-    video {
-        float: inline-end;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-    */
+    
     section {
         clear: both;
         display: inline;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
     }
 
     .section-sleep {
