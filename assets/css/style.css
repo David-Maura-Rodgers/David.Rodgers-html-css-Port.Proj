@@ -161,9 +161,8 @@ section  {
 }
 
 section p {
-	width: 60%;
     display: inline-block;
-    text-align: left;
+    text-align: center;
     padding: 0 15px;
 }
 
@@ -171,28 +170,10 @@ ol {
     margin-left: 35px;
 }
 
-#home-sleep-li {
-    position: absolute;
-    right: 60%;
-    bottom: 20%;
-}
-
-#home-exercise-li {
-    position: absolute;
-    right: 60%;
-    bottom: -50%;
-}
-
-#home-mindfulness-li {
-    position: absolute;
-    right: 60%;
-    bottom: -137%;
-}
-
 img {
     margin: 1% 0 0 1%;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     clear: left;
     border-radius: 50%;
     border: navy solid 5px;
@@ -356,6 +337,52 @@ table th, tr, td {
 
     .sub-titles {
         clear: both;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    aside {
+        clear: both;
+        text-align: center;
+        display:inline-flex;
+        margin-right: 15rem;
+        width: 50%;
+    }
+    
+    iframe {
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    /*
+    video {
+        float: inline-end;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    */
+    section {
+        clear: both;
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .section-sleep {
+        clear: both;
+        display: inline;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
@@ -363,6 +390,7 @@ table th, tr, td {
 
     .back-top {
         clear: both;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
@@ -381,57 +409,7 @@ table th, tr, td {
         clear: both;   
     }
 
-    iframe {
-        clear: both;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-
-    video {
-        float: inline-end;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-
-    section {
-        clear: both;
-        display: inline;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-
-    .section-sleep {
-        clear: both;
-        display: inline;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-
-    aside {
-        clear: both;
-        text-align: center;
-        position: relative;
-        display: block;
-        margin-right: 58%;
-        /* margin-left: auto;
-        margin-right: auto;
-        width: 50%;*/
-    }
-
-    img {
-        width: 200px;
-        height: 200px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        
-    }
-
+    
     hr {
         display: none;
     }
