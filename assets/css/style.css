@@ -89,8 +89,7 @@ hr {
     flex-direction: row;
 
     height: 100px;
-    width: inherit;
-    margin-top: 0;
+    /*width: inherit;*/
 
     /* https://blog.logrocket.com/advanced-effects-with-css-background-blend-modes-4b750198522a/ */
     
@@ -328,32 +327,45 @@ table th, tr, td {
 /* For larger to medium screens size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    
-    nav {
-        display: flexbox;
+/*    
+    #menu {
+        display: flex;
     }
 
-    #menu {
-        display: flexbox;
+    #menu > * {
+        width: 100%;
     }
+    */
 
     #menu li {
-        display: flexbox;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 80%;
+        font-weight: 500;
+        padding: 0;
+        margin: 0 auto;
     }
-
+   
     .page-titles {
         clear: both;
-        float: left;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     .sub-titles {
         clear: both;
-        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     .back-top {
         clear: both;
-        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     .social-networks {
@@ -366,34 +378,58 @@ table th, tr, td {
     }
 
     .social-networks i {
-            clear: both;   
+        clear: both;   
     }
 
     iframe {
         clear: both;
-        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     video {
         float: inline-end;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     section {
         clear: both;
         display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .section-sleep {
+        clear: both;
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     aside {
         clear: both;
+        text-align: center;
         position: relative;
         display: block;
         margin-right: 58%;
+        /* margin-left: auto;
+        margin-right: auto;
+        width: 50%;*/
     }
 
     img {
         width: 200px;
         height: 200px;
-        display:block;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        
     }
 
     hr {
@@ -404,31 +440,34 @@ table th, tr, td {
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
-    nav {
-        display: flexbox;
-    }
-
-    #menu {
-        display: flexbox;
-    }
-
     #menu li {
-        display: flexbox;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 80%;
+        font-weight: 500;
+        padding: 0;
+        margin: 0 auto;
     }
 
     .page-titles {
         clear: both;
-        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     .sub-titles {
         clear: both;
-        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     .back-top {
         clear: both;
-        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     .social-networks {
@@ -441,21 +480,38 @@ table th, tr, td {
     }
 
     .social-networks i {
-            clear: both;   
+        clear: both;   
     }
 
     iframe {
         clear: both;
         float: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     video {
         float: inline-end;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     section {
         clear: both;
         display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .section-sleep {
+        clear: both;
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     aside {
@@ -463,12 +519,18 @@ table th, tr, td {
         position: relative;
         display: block;
         margin-right: 58%;
+        /*margin-left: auto;
+        margin-right: auto;
+        width: 50%;*/
     }
 
     img {
         width: 200px;
         height: 200px;
         display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     hr {
