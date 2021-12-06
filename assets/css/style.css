@@ -376,22 +376,19 @@ table th, tr, td {
     iframe {
         clear: both;
         float: left;
-        margin: 0 auto;
-        padding: 0;
+        display: none;
     }
 
     video {
-        clear: both;
-        display: inline-block;
-        margin: 0 auto;
-        padding: 0;
+        float: inline-end;
     }
 
     section {
         clear: both;
-        margin: 15%;
         display: inline;
     }
+
+
 
     aside {
         clear: both;
