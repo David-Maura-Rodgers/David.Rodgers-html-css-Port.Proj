@@ -31,19 +31,17 @@ h3 {
 hr {
     border: 0.5px solid black;
     width: 100%;
-    margin: 15px 0 5px;
+    margin: 2%;
 }
 
 .page-titles {
     text-align: center;
-    padding: 10px 10px;
     margin: 1%;
 }
 
 .sub-titles {
     text-align: left;
-    padding: 10px;
-    margin-left: 1em;
+    margin: 1%;
 }
 
 .page-titles a:link, .sub-titles a:link, td a:link, li a:link {
@@ -83,11 +81,8 @@ hr {
     text-decoration: none;
 }
 
-
 /* Nav Menu styles*/
-
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu*/
-
 #menu {
     font-size: 150%;
     font-weight: 600;
@@ -123,7 +118,6 @@ hr {
 
 /*Section and Aside - contents within*/
 /* Need to check code on Runnable example HTML-36-aside-runnable */
-
 aside {
     float: right;
     width: 40%;
@@ -140,12 +134,6 @@ aside {
 aside > p {
     padding: 1.5em;
 }
-/*
-.image {
-    max-width: 300px;
-    max-height: 300px;
-}
-*/
 
 img {
     height: 300px;
@@ -208,7 +196,6 @@ table th, tr, td {
     padding-left: 0 10px 0 10px;
     text-align: center;
 }
-
 
 /* Form for suggestions page*/
 .suggestions-form {
@@ -287,7 +274,6 @@ table th, tr, td {
 }
 
 /* Social Media section styles*/
-
 .social-networks {
     text-align: center;
 }
@@ -303,11 +289,8 @@ table th, tr, td {
     color: navy;
 }
 
-
 /* Media queries */
-
 /* For larger to medium screens size from 1200px wide and down */
-
 @media screen and (max-width: 1200px) {
 
     #menu li {
@@ -412,7 +395,7 @@ table th, tr, td {
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-
+    
     #menu li {
         flex-wrap: wrap;
         justify-content: center;
