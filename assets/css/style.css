@@ -65,6 +65,7 @@ hr {
 
 .back-top {
     margin-top: 75px;
+    text-align: center;
 }
 
 .back-top a:link {
@@ -169,8 +170,9 @@ section  {
     margin: 1%
 }
 
-ol {
-    margin-left: 35px;
+.study {
+    text-align: center;
+    list-style-position: inside;
 }
 
 img {
@@ -183,42 +185,18 @@ img {
 }
 
 
-/* Social Media section styles*/
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 0.5%; 
-    padding: 2% 5% 2% 5%;
-    color: navy;
-}
-
-
 /* Videos in Sleep, Execise and Midfulness pages */
 /* https://css-tricks.com/fluid-width-video */
-
 video {
-    clear: both;
-    flex-wrap: wrap;
-    margin: 1%;
-    width: 500px;
-    height: 600px;
-    width: 25%    !important;
+    margin: 0.5% 35%;
     height: auto  !important;
 }
 
-
 /* Table styling for sleep, exercise and mindfulness pages  */
-
 table {
     padding: 50px 0 50px 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table th, tr, td {
@@ -230,7 +208,6 @@ table th, tr, td {
 
 
 /* Form for suggestions page*/
-
 .suggestions-form {
     margin: 15px;
     color: #fff;
@@ -304,6 +281,23 @@ table th, tr, td {
 .join-button a:visited {
     color: #252525;
     text-decoration: none;
+}
+
+/* Social Media section styles*/
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 0.5%; 
+    padding: 2% 5% 2% 5%;
+    color: navy;
 }
 
 
