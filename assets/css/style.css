@@ -329,12 +329,25 @@ table th, tr, td {
         margin-right: auto;
         width: 50%;
     }
-
-    img {
-        display: block;
+    /*
+    .circle-images {
+        position: relative;
+        width: 30vw;
+        height: 22vw;
+        overflow: hidden;
+    }
+    
+    .circle-images img{
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+    }
+    */
+    .circle-images {
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 200px;
+        height: 200px;
     }
 
     aside {
