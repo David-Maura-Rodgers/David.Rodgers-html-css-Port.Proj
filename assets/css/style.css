@@ -304,6 +304,10 @@ table th, tr, td {
         width: 50%;
     }
 
+    .page-titles {
+        margin-bottom: 2%;
+    }
+
     section {
         clear: both;
         display: inline;
@@ -312,7 +316,7 @@ table th, tr, td {
     .circle-images {
         width: 200px;
         height: 300px;
-        margin-left: 41.25%;
+        margin-left: 40.80%;
         margin-bottom: -8%;
     }
     
@@ -412,6 +416,10 @@ table th, tr, td {
         width: 50%;
     }
 
+    .page-titles {
+        margin-bottom: 2%;
+    }
+
     section {
         clear: both;
         display: inline;
@@ -420,8 +428,8 @@ table th, tr, td {
     .circle-images {
         width: 200px;
         height: 300px;
-        margin-left: 31%;
-        margin-bottom: -8%;
+        margin-left: 30.5%;
+        margin-bottom: -17%;
     }
 
     aside {
@@ -430,7 +438,7 @@ table th, tr, td {
         display: inline-block;
         margin-right: 7.5em;;
         width: 50%;
-        margin-top: 2%;
+        margin-top: 4%;
     }
     
     iframe {
