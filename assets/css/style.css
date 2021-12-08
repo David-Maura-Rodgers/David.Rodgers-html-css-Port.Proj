@@ -138,9 +138,21 @@ aside > p {
 img {
     height: 300px;
     width: 300px; 
-    overflow: hidden;
     border-radius: 50%;
     border: navy solid 5px;
+}
+
+.circle-images {
+    position: relative;
+    width: 30vw;
+    height: 22vw;
+    overflow: hidden;
+}
+
+.circle-images img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
 }
 
 section  {
