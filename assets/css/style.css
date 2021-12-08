@@ -116,8 +116,7 @@ hr {
     border-bottom: 4px solid black;
 }
 
-/*Section and Aside - contents within*/
-/* Need to check code on Runnable example HTML-36-aside-runnable */
+/* Section and Aside - contents within */
 aside {
     float: right;
     width: 40%;
@@ -147,11 +146,12 @@ img {
     width: 30vw;
     height: 22vw;
     overflow: hidden;
+    margin-left: 2%;
 }
 
 .circle-images img{
     width: 80%;
-    height: 80%;
+    height: 70%;
     object-fit: cover;
 }
 
@@ -161,6 +161,7 @@ section  {
 
 section p {
 	margin: 1%;
+    text-align: justify;
 }
 
 #section-sleep {
@@ -329,27 +330,14 @@ table th, tr, td {
         margin-right: auto;
         width: 50%;
     }
-    /*
-    .circle-images {
-        position: relative;
-        width: 30vw;
-        height: 22vw;
-        overflow: hidden;
-    }
-    
-    .circle-images img{
-        width: 80%;
-        height: 80%;
-        object-fit: cover;
-    }
-    */
+
     .circle-images {
         margin-left: auto;
         margin-right: auto;
         width: 200px;
         height: 200px;
     }
-
+    
     aside {
         clear: both;
         text-align: center;
@@ -417,14 +405,13 @@ table th, tr, td {
     }
 }
 
-
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     
     #menu li {
         flex-wrap: wrap;
         justify-content: center;
-        font-size: 80%;
+        font-size: 70%;
         font-weight: 500;
         padding: 0;
         margin: 0 auto;
