@@ -316,7 +316,7 @@ table th, tr, td {
     .circle-images {
         width: 200px;
         height: 300px;
-        margin-left: 40.80%;
+        margin: auto;
         margin-bottom: -8%;
     }
     
@@ -324,7 +324,7 @@ table th, tr, td {
         clear: both;
         text-align: center;
         display:inline-flex;
-        margin-right: 15rem;
+        margin-right: 16rem;
         margin-top: 2%;
         width: 50%;
     }
@@ -428,7 +428,7 @@ table th, tr, td {
     .circle-images {
         width: 200px;
         height: 300px;
-        margin-left: 30.5%;
+        margin: auto;
         margin-bottom: -17%;
     }
 
@@ -436,7 +436,7 @@ table th, tr, td {
         clear: both;
         text-align: center;
         display: inline-block;
-        margin-right: 7.5em;;
+        margin-right: 6em;;
         width: 50%;
         margin-top: 4%;
     }
