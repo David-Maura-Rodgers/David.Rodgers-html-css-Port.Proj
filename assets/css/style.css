@@ -146,7 +146,7 @@ img {
     width: 30vw;
     height: 22vw;
     overflow: hidden;
-    margin-left: 2%;
+    margin-left: 2.5%;
 }
 
 .circle-images img{
@@ -160,7 +160,8 @@ section  {
 }
 
 section p {
-	margin: 1%;
+	margin-left: 3%;
+    margin-right: 3%;
     text-align: justify;
 }
 
@@ -332,8 +333,7 @@ table th, tr, td {
     }
 
     .circle-images {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 41%;
         width: 200px;
         height: 200px;
     }
@@ -433,11 +433,10 @@ table th, tr, td {
         width: 50%;
     }
 
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
+    .circle-images {
+        margin-left: 33%;
+        width: 200px;
+        height: 200px;
     }
 
     aside {
