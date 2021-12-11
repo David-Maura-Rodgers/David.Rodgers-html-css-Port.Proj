@@ -95,23 +95,23 @@ section  {
 }
 
 #sleep p {
-    text-align: left;
-    margin-left: 2%
+    text-align: justify;
+    margin: 0 2% 0 2%;
 }
 
 #exercise p {
-    text-align: left;
-    margin-left: 2%
+    text-align: justify;
+    margin: 0 2% 0 2%;
 }
 
 #mindfulness p {
-    text-align: left;
-    margin-left: 2%
+    text-align: justify;
+    margin: 0 2% 0 2%;
 }
 
 #suggestions p {
-    text-align: left;
-    margin-left: 2%
+    text-align: justify;
+    margin: 0 2% 0 2%;
 }
 
 .study {
