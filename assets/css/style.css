@@ -88,10 +88,30 @@ section  {
 	display: flex;
 }
 
-section p {
+#home p {
 	margin: 0 auto;
     text-align: justify;
     width: 70%;
+}
+
+#sleep p {
+    text-align: left;
+    margin-left: 2%
+}
+
+#exercise p {
+    text-align: left;
+    margin-left: 2%
+}
+
+#mindfulness p {
+    text-align: left;
+    margin-left: 2%
+}
+
+#suggestions p {
+    text-align: left;
+    margin-left: 2%
 }
 
 .study {
