@@ -62,7 +62,7 @@ aside > p {
     padding: 1.5em;
 }
 
-/* Images for front page*/
+/* Images, section and paragraph content for home page*/
 img {
     height: 300px;
     width: 300px; 
@@ -94,6 +94,7 @@ section  {
     width: 70%;
 }
 
+/* Paragraph and list item content for sleep, exercise and mindfulness pages*/
 #sleep p {
     text-align: justify;
     margin: 0 2% 0 2%;
@@ -120,12 +121,12 @@ section  {
 }
 
 /* Psuedo classes for links on pages */
+/* Source Code: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew() */
 .page-titles a:link, .sub-titles a:link, td a:link, li a:link {
     color: #252525;
     text-decoration: none;
     }
 
-/* Source Code: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew() */
 .page-titles a:hover, .sub-titles a:hover, td a:hover, .study li a:hover {
     border-bottom: navy 2px solid;
 }
@@ -208,7 +209,7 @@ table th, tr, td {
     text-align: center;
 }
 
-/* Form for suggestions page*/
+/* Form for suggestions page */
 .suggestions-form {
     color: #fff;
     background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
