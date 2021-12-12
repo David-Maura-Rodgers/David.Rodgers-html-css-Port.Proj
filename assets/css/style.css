@@ -30,7 +30,7 @@ h3 {
 
 hr {
     border: 0.5px solid black;
-    width: 100%;
+    width: auto;
     margin: 2%;
 }
 
