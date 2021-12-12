@@ -4,7 +4,7 @@ In this section, you will include one or two paragraphs providing an overview of
 
 For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
 
-![Home Page](../assets/images/home-page.png?raw=true "Optional Title")
+![image](https://user-images.githubusercontent.com/91907661/145722975-d325d142-6f9b-497d-8e9a-2da91429d996.png)
 
 ## Features 
 
