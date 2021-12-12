@@ -1,8 +1,8 @@
 # Mind and Body Maintenance
 
-Mind and Body Maintenance is a site that I created to share some of my favourite sources on sleep, exercise and mindfulness. These sources will range from articles, journals, YouTube videos and website from various experts and content creators. There is also an opportunity for users of the site to suggest their own content and suggestions for the site's function and appearance. 
+Mind and Body Maintenance is a site that I created to share some of my favourite sources on sleep, exercise and mindfulness. These sources will range from articles, journals, YouTube videos and websites from various experts and content creators. There is also an opportunity for users of the site to suggest their own content and suggestions for the site's function and appearance. 
 
-![Home Page](https://user-images.githubusercontent.com/91907661/145723270-b15f5c03-73cb-4813-8055-9d85263c4308.png)
+![home-page](https://user-images.githubusercontent.com/91907661/145724883-0ebc6605-9b31-4fdd-94a5-27d77ab68d59.png)
 
 ## Features 
 
@@ -16,53 +16,55 @@ Below is a list of features that I have on this site and will detail each indivd
 
 ![nav-menu](https://user-images.githubusercontent.com/91907661/145723593-3abdadbc-c308-4ef7-9d8e-6ed93b71f8ff.png)
 
+
+- __Social Media and Back to Top__
+
+  - There will be links to the website Social Media pages located in the footer
+  - There is also a back to top link which can be clicked to reurn to Nav menu bar at any time
+
+![back-socialmedia](https://user-images.githubusercontent.com/91907661/145724575-6b2e2cb9-8736-4a44-a0da-33ec5b712fbd.png)
+
+
 - __Title Links__
 
   - You can click on the the Mind and Body Maintenance link and it will take you to the home page at any time, you can also click on the title for Ideas for healthy minds and bodies, and this will take you directly to the Suggestions Page, these title links apear on all pages.
 
+
 ![title-links](https://user-images.githubusercontent.com/91907661/145724081-9e58f592-7c15-4f93-a281-ba0bf4365b33.png)
 
-- __Club Ethos Section__
+- __Home Page Content__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The content on the home page includes some introduction info and links within each section to take you directly to the page
+  - There is also a video that loads up automatically that you can choose to umute. Each video gives a good insite into what the correlating page is about
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
+![home-page-content](https://user-images.githubusercontent.com/91907661/145724460-fcb18518-bc4e-4b08-8a22-67585d776290.png)
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+- __Sleep, Exercise and Mindfulness Pages__
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+  - Each section will follow the same layout. Below, the Sleep page of the site is shown as an example 
+  - Below a short paragraph, an iframe will load in addition to a table of sources section off in different categories: Source, Video and Article.
+  - There is also a list of more detailed studies and journals for more in depth study
+  - This section can also be update by way of newly suggested content from myslef or other users on the Suggestions page 
 
-- __The Footer__ 
+![sleep-exercise-mindfulness-content](https://user-images.githubusercontent.com/91907661/145724847-c3522d11-7450-41c9-ba89-ba32611bdaec.png)
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+- __Suggestions Page__
 
-- __Gallery__
+  - This page will allow the user to enter some basic info on the form - drop down for age, text input for name and email address. There will be some radio button questions in there as well. All in all, it takes no time to complete and all these questions are required to be able to submit the form
+  - The is a text box area for the user to enter suggestions and additional content for for the site, which I can implement and and give credit to the person suggesting it, if they want me to do so.
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+![suggestions-form](https://user-images.githubusercontent.com/91907661/145725027-bcb0b194-2261-4241-b489-1f37b94047a6.png)
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
+<!--
 For some/all of your features, you may choose to reference the specific project files that implement them.
-
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
 - Another feature idea
+-->
 
 ## Testing 
 
@@ -88,14 +90,12 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://david-maura-rodgers.github.io/David.Rodgers-html-css-Port.Proj./
 
 
 ## Credits 
@@ -114,23 +114,3 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
