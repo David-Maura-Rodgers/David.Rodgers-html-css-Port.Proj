@@ -189,7 +189,7 @@ section  {
 /* Videos in Sleep, Execise and Midfulness pages */
 /* https://css-tricks.com/fluid-width-video */
 video {
-    margin: 1% 35%;
+    margin: 2% 35%;
     height: auto  !important;
 }
 
@@ -198,6 +198,7 @@ table {
     padding: 1%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -1%;
 }
 
 table th, tr, td {
