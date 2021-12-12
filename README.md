@@ -1,30 +1,26 @@
 # Mind and Body Maintenance
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+Mind and Body Maintenance is a site that I created to share some of my favourite sources on sleep, exercise and mindfulness. These sources will range from articles, journals, YouTube videos and website from various experts and content creators. There is also an opportunity for users of the site to suggest their own content and suggestions for the site's function and appearance. 
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
-
-![image](https://user-images.githubusercontent.com/91907661/145722975-d325d142-6f9b-497d-8e9a-2da91429d996.png)
+![Home Page](https://user-images.githubusercontent.com/91907661/145723270-b15f5c03-73cb-4813-8055-9d85263c4308.png)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Below is a list of features that I have on this site and will detail each indivdually - there is a nav menu for each page, and there are five pages in total - Home, Sleep, Exercise, Mindfulness and a suggestions page. The home page has an aside which also loads up a YouTube video for each section. Within the Sleep, Exercise and Mindfulness pages, there is an iframe, table and list items which link to various external sources. The is a form for the Suggestions page to record data entered by users of the site. Ther is a also a footer which links the user to social media pages.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The Nav Menu bar is located on all pages and allows seamless flow for the user to access all the content on the site
 
-![Nav Bar]("assets/images/sleep2.webp")
+![nav-menu](https://user-images.githubusercontent.com/91907661/145723593-3abdadbc-c308-4ef7-9d8e-6ed93b71f8ff.png)
 
-- __The landing page image__
+- __Title Links__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - You can click on the the Mind and Body Maintenance link and it will take you to the home page at any time, you can also click on the title for Ideas for healthy minds and bodies, and this will take you directly to the Suggestions Page, these title links apear on all pages.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![title-links](https://user-images.githubusercontent.com/91907661/145724081-9e58f592-7c15-4f93-a281-ba0bf4365b33.png)
 
 - __Club Ethos Section__
 
