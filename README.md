@@ -55,35 +55,28 @@ Below is a list of features that I have on this site and will detail each indivd
   - This page will allow the user to enter some basic info on the form - drop down for age, text input for name and email address. There will be some radio button questions in there as well. All in all, it takes no time to complete and all these questions are required to be able to submit the form
   - The is a text box area for the user to enter suggestions and additional content for for the site, which I can implement and and give credit to the person suggesting it, if they want me to do so.
 
-![suggestions-form](https://user-images.githubusercontent.com/91907661/145725027-bcb0b194-2261-4241-b489-1f37b94047a6.png)
+![suggestions-form](https://user-images.githubusercontent.com/91907661/145725027-bcb0b194-2261-4241-b489-1f37b94047a6.png)  
+<br>
+## Testing and Lighthouse
 
-<!--
-For some/all of your features, you may choose to reference the specific project files that implement them.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
--->
-
-## Testing 
+![lighthouse](https://user-images.githubusercontent.com/91907661/146009134-118f8408-eefe-43b9-83e8-c9c7e1adab0d.png)
 
 I have included the following errors and warnings I received from Validation testing and how and if they needed fixing:
 
 - __Errors__
 - The frameborder attribute on the iframe element is obsolete. Use CSS instead.
-  - I have remnoved the obselete attribute from all instances of this element
-- Bad value assets/images/woman meditating 2.jpg for attribute src on element img: Illegal character in path segment: space is not allowed.
-  - This has now been changed to proper format
-
+  - I have remnoved the obselete attribute from all instances of this element 
+- Bad value assets/images/woman meditating 2.jpg for attribute src on element img: Illegal character in path segment: space is not allowed.  
+  - This has now been changed to proper format  
+  
 - __Warnings__
 - The name attribute is obsolete (for the back to top function). Consider putting an id attribute on the nearest container instead.
   - Removed name as suggested and feature still works
 - Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
   - I have used flex with CCS on my section which contains the image, paragraph, aside and Youtube Video. A header for these sections didn't fit with plan for layout
 - Value Error : padding-left Too many values or values are not recognized: 0 10px 0 10px
-  - Have changed to 0 10px and removed osbolete values
-
+  - Have changed to 0 10px and removed osbolete values  
+  
 ### Validator Testing 
 
 - HTML
