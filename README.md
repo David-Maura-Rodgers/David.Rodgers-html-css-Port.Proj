@@ -71,9 +71,9 @@ In addition, you may also use this section to discuss plans for additional featu
 I have included the following errors and warnings I received from Validation testing and how and if they needed fixing:
 
 - __Errors__
-- The frameborder attribute on the iframe element is obsolete. Use CSS instead.
+- The frameborder attribute on the iframe element is obsolete. Use CSS instead.
   - I have remnoved the obselete attribute from all instances of this element
-- Bad value assets/images/woman meditating 2.jpg for attribute src on element img: Illegal character in path segment: space is    not allowed.
+- Bad value assets/images/woman meditating 2.jpg for attribute src on element img: Illegal character in path segment: space is not allowed.
   - This has now been changed to proper format
 
 - __Warnings__
@@ -104,12 +104,7 @@ Not a bug as such, just a very small difference in the size of the sleeping woma
 
 The live link can be found here - https://david-maura-rodgers.github.io/David.Rodgers-html-css-Port.Proj./
 
-
-## Credits 
-
-Below contains the sources that are included in my site. 
-
-### Content 
+### Credits for all Content 
 
 - __HTML Code__
   - For back to top page link: https://www.computerhope.com/issues/ch001475.htm
@@ -118,12 +113,50 @@ Below contains the sources that are included in my site.
   - To esnure that all radio buttons are required before table is submitted: https://stackoverflow.com/questions/49798482/why-can-i-check-multiple-radio-buttons/49798515
 
 - __CSS Code__
-  - 
+  - For skew function on Submit button: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew()
+  - For blended colors on nav menu and form: https://blog.logrocket.com/advanced-effects-with-css-background-blend-modes-4b750198522a/
+  - To enusre that loaded videos stated to a set height: https://css-tricks.com/fluid-width-video
 
-- __Info and Sources__
-  -
+- __Info and Sources (links to articles, videos and journals)__
+  - https://www.ft.com/content/e6ccdcac-133d-11e9-a581-4ff78404524e
+  - https://sleepmatters.ie/
+  - https://www.foundmyfitness.com/
+  - https://www.materprivate.ie/dublin/centre-services/all-services/sleep-disorders-clinic/
+  - https://www.youtube.com/watch?v=TUdYMpitk8Y
+  - https://www.youtube.com/watch?v=oZ-Ng0RXHLc
+  - https://www.youtube.com/watch?v=qvNLNl7oJnM
+  
+  - https://www.hybridcalisthenics.com/
+  - https://scoobysworkshop.com/
+  - https://www.healthline.com/
+  - https://www2.hse.ie/wellbeing/exercising-indoors/indoor-exercises-for-older-people.html
+  - https://www.youtube.com/watch?v=U1oARCOjzKM
+  - https://www.youtube.com/watch?v=5eV33roibqc
+  - https://www.youtube.com/watch?v=8CE4ijWlQ18
+
+  - https://www.youtube.com/watch?v=TUdYMpitk8Y
+  - https://www.youtube.com/watch?v=zsXDIk5ur2U
+  - https://www.youtube.com/watch?v=Ko51JVPUtAI&t=39s
+  - https://self-compassion.org/
+  - https://jackkornfield.com/
+  - https://alastaircampbell.org/blog/category/mental-health-2/ 
+
+  - https://www.mayo.edu/research/clinical-trials/diseases-conditions/sleep-disorders/
+  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6281147/
+  - https://www.sleepmedres.org/journal/view.php?number=175
+  - https://www.sleepmedres.org/journal/view.php?number=176
+  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1402378/
+  - https://www.bmj.com/content/371/bmj.m3485
+  - https://med.stanford.edu/news/all-news/2020/05/stanford-medicine-study-details-molecular-effects-of-exercise.html
+  - https://www.frontiersin.org/articles/10.3389/fmed.2019.00236/full
+  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1828319/
+  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2395346/
+  - https://www.jmir.org/2020/7/e18723/
+  - https://alastaircampbell.org/blog/category/mental-health-2/
 
 ### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos and videos used on the home, sleep, exercise, mindfulness are from This Open Source site: https://pixabay.com/
+- The YouTube Videos that load on Home page are as listed below:
+  - https://www.youtube.com/watch?v=KGfdR7TSJo4&t=1s
+  - https://www.youtube.com/watch?v=WDz4PRXlrVg&t=26s
+  - https://www.youtube.com/watch?v=mOo1x8S2Dxc&t=39s

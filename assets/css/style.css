@@ -6,6 +6,7 @@
     border: none;
 }
 
+/* Body text, headers and hr */
 body {
     font-family: Titillium Web, sans-serif; 
     font-weight: 400;
@@ -121,7 +122,6 @@ section  {
 }
 
 /* Psuedo classes for links on pages */
-/* Source Code: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew() */
 .page-titles a:link, .sub-titles a:link, td a:link, li a:link {
     color: #252525;
     text-decoration: none;
@@ -157,8 +157,6 @@ section  {
 }
 
 /* Nav Menu styles*/
-/* Source Code: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu* /
-/* Source Code: https://blog.logrocket.com/advanced-effects-with-css-background-blend-modes-4b750198522a/ */
 #menu {
     font-size: 150%;
     font-weight: 600;
@@ -188,7 +186,6 @@ section  {
 }
 
 /* Videos in Sleep, Execise and Midfulness pages */
-/* https://css-tricks.com/fluid-width-video */
 video {
     margin: 2% 35%;
     height: auto  !important;
