@@ -205,7 +205,6 @@ table {
 table th, tr, td {
     padding: 12px 5px 12px 5px;
     border: solid navy 0.5px;
-    padding-left: 0 10px;
     text-align: center;
 }
 
