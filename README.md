@@ -2,7 +2,7 @@
 
 Mind and Body Maintenance is a site that I created to share some of my favourite sources on sleep, exercise and mindfulness. These sources will range from articles, journals, YouTube videos and websites from various experts and content creators. There is also an opportunity for users of the site to suggest their own content and suggestions for the site's function and appearance. 
 
-![home-page](https://user-images.githubusercontent.com/91907661/145724883-0ebc6605-9b31-4fdd-94a5-27d77ab68d59.png)
+![home-page](https://user-images.githubusercontent.com/91907661/146028537-c58b2c6d-ebbf-48dc-846b-b5bab3ac19d7.png)
 
 ## Features 
 
