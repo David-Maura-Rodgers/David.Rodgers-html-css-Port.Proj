@@ -68,14 +68,21 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I have included the following errors and warnings I received from Validation testing and how and if they needed fixing:
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- __Errors__
+- The frameborder attribute on the iframe element is obsolete. Use CSS instead.
+  - I have remnoved the obselete attribute from all instances of this element
+- Bad value assets/images/woman meditating 2.jpg for attribute src on element img: Illegal character in path segment: space is    not allowed.
+  - This has now been changed to proper format
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+- __Warnings__
+- The name attribute is obsolete (for the back to top function). Consider putting an id attribute on the nearest container instead.
+  - Removed name as suggested and feature still works
+- Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+  - I have used flex with CCS on my section which contains the image, paragraph, aside and Youtube Video. A header for these sections didn't fit with plan for layout
+- Value Error : padding-left Too many values or values are not recognized: 0 10px 0 10px
+  - Have changed to 0 10px and removed osbolete values
 
 ### Validator Testing 
 
