@@ -336,6 +336,7 @@ table th, tr, td {
         height: 300px;
         margin: auto;
         margin-bottom: -8%;
+        padding-bottom: 37.5px;
     }
     
     aside {
