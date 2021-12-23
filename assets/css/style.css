@@ -64,13 +64,6 @@ aside > p {
 }
 
 /* Images, section and paragraph content for home page*/
-img {
-    height: 300px;
-    width: 300px; 
-    border-radius: 50%;
-    border: navy solid 5px;
-}
-
 .circle-images {
     position: relative;
     width: 30vw;
@@ -79,7 +72,29 @@ img {
     margin-left: 30px;
 }
 
-.circle-images img{
+.circle-images img {
+    height: 300px;
+    width: 300px; 
+    border-radius: 50%;
+    border: navy solid 5px;
+    width: 90%;
+    height: 60%;
+    object-fit: cover;
+}
+
+#circle-images-sleep {
+    position: relative;
+    width: 36vw;
+    height: 22vw;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+#sleep-circle {
+    height: 300px;
+    width: 300px; 
+    border-radius: 50%;
+    border: navy solid 5px;
     width: 90%;
     height: 60%;
     object-fit: cover;
