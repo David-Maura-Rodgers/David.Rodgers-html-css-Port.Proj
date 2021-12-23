@@ -6,7 +6,7 @@ Mind and Body Maintenance is a site that I created to share some of my favourite
 
 ## Features 
 
-Below is a list of features that I have on this site which I will detail indivdually - there is a nav menu for each page, and there are five pages in total - Home, Sleep, Exercise, Mindfulness and a suggestions page. The home page has an aside which also loads up a YouTube video for each section. Within the Sleep, Exercise and Mindfulness pages, there is an iframe, table and list items which link to various external sources. There is a form for the Suggestions page to record data entered by users of the site. There is a also a footer which links the user to social media pages and a link which bring users back to the top of the page if they have scrolled down to the bottom.
+Below is a list of features that I have on this site which I will detail individually - there is a nav menu for each page, and there are five pages in total - Home, Sleep, Exercise, Mindfulness and a suggestions page. The home page has an aside which also loads up a YouTube video for each section. Within the Sleep, Exercise and Mindfulness pages, there is an iframe, table and list items which link to various external sources. There is a form for the Suggestions page to record data entered by users of the site. There is also a footer which links the user to social media pages and a link which brings users back to the top of the page if they have scrolled down to the bottom.
 
 ### Each Feature Explained
 
@@ -31,8 +31,8 @@ Below is a list of features that I have on this site which I will detail indivdu
 
 - __Home Page Content__
 
-  - The content on the home page includes some introduction info and links within each section to take you directly to the page they relate too
-  - There is also a video that loads up automatically that you can choose to unmute. Each video gives a good insite into what the correlating page is about
+  - The content on the home page includes some introduction info and links within each section to take you directly to the page they relate to
+  - There is also a video that loads up automatically that you can choose to unmute. Each video gives a good insight into what the correlating page is about
 
 ![home-page-content](https://user-images.githubusercontent.com/91907661/145724460-fcb18518-bc4e-4b08-8a22-67585d776290.png)
 
@@ -48,7 +48,7 @@ Below is a list of features that I have on this site which I will detail indivdu
 - __Suggestions Page__
 
   - This page will allow the user to enter some basic info on the form - drop down for age group, text input for name and email address. There will be some radio button questions in there as well. All in all, it takes no time to complete and all these questions are required to be able to submit the form
-  - There is a text box area for the user to enter suggestions and additional content for for the site, which I can implement and and give credit to the person suggesting it, if they want me to do so.
+  - There is a text box area for the user to enter suggestions and additional content for the site, which I can implement and give credit to the person suggesting it, if they want me to do so.
 
 ![suggestions-form](https://user-images.githubusercontent.com/91907661/145725027-bcb0b194-2261-4241-b489-1f37b94047a6.png)  
 
@@ -66,7 +66,7 @@ I have included the following errors and warnings I received from Validation tes
 
 - __Errors__
 - The frameborder attribute on the iframe element is obsolete. Use CSS instead.
-  - I have remnoved the obselete attribute from all instances of this element 
+  - I have removed the obsolete attribute from all instances of this element 
 - Bad value assets/images/woman meditating 2.jpg for attribute src on element img: Illegal character in path segment: space is not allowed.  
   - This has now been changed to the proper format  
   
@@ -76,7 +76,7 @@ I have included the following errors and warnings I received from Validation tes
 - Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
   - I have used flex with CCS on my section which contains the image, paragraph, aside and Youtube Video. A header for these sections didn't fit with my plan for layout
 - Value Error : padding-left Too many values or values are not recognized: 0 10px 0 10px
-  - Have changed to 0 10px and removed osbolete values  
+  - Have changed to 0 10px and removed obsolete values  
   
 ### Validator Testing 
 
@@ -87,7 +87,27 @@ I have included the following errors and warnings I received from Validation tes
 
 ### Unfixed Bugs
 
-Not a bug as such, just a very small difference in the size of the sleeping woman image and the 2 images below (2 people exercising and woman meditating) This is likely due to the content being ina a flex layout. I have tried everything I know, looked at resources online and there seems to be no error or difference in the html or CSS controlling them.
+A very small, but noticeable difference in the size of the sleeping woman image and the 2 images below (two people exercising and woman meditating) This is likely due to the content being ina a flex layout. I have tried everything I know, looked at resources online and there seems to be no error or difference in the html or CSS controlling them.
+
+I then had to create the code below, which takes the first image and it's container to be unique - I changed the width of the viewport to 36 as opposed to 30 for the two images below it. Not ideal, but it does fix the issue.
+
+#circle-images-sleep {
+    position: relative;
+    width: 36vw;
+    height: 22vw;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+#sleep-circle {
+    height: 300px;
+    width: 300px; 
+    border-radius: 50%;
+    border: navy solid 5px;
+    width: 90%;
+    height: 60%;
+    object-fit: cover;
+}
 
 ## Deployment
 

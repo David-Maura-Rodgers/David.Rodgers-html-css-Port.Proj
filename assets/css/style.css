@@ -82,6 +82,7 @@ aside > p {
     object-fit: cover;
 }
 
+/* These ids had to be create to correct a layout issue on the home page */
 #circle-images-sleep {
     position: relative;
     width: 36vw;
@@ -90,7 +91,7 @@ aside > p {
     margin-left: 30px;
 }
 
-#sleep-circle {
+#circle-images-sleep img {
     height: 300px;
     width: 300px; 
     border-radius: 50%;
@@ -341,12 +342,20 @@ table th, tr, td {
         margin-bottom: 2%;
     }
 
-    section {
+    .home {
         clear: both;
         display: inline;
     }
 
     .circle-images {
+        width: 200px;
+        height: 300px;
+        margin: auto;
+        margin-bottom: -8%;
+        padding-bottom: 40px;
+    }
+
+    #circle-images-sleep {
         width: 200px;
         height: 300px;
         margin: auto;
@@ -454,12 +463,19 @@ table th, tr, td {
         margin-bottom: 2%;
     }
 
-    section {
+    .home {
         clear: both;
         display: inline;
     }
 
     .circle-images {
+        width: 200px;
+        height: 300px;
+        margin: auto;
+        margin-bottom: -17%;
+    }
+
+    #circle-images-sleep {
         width: 200px;
         height: 300px;
         margin: auto;
