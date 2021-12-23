@@ -16,7 +16,6 @@ Below is a list of features that I have on this site and will detail each indivd
 
 ![nav-menu](https://user-images.githubusercontent.com/91907661/145723593-3abdadbc-c308-4ef7-9d8e-6ed93b71f8ff.png)
 
-
 - __Social Media and Back to Top__
 
   - There will be links to the website Social Media pages located in the footer
@@ -24,11 +23,9 @@ Below is a list of features that I have on this site and will detail each indivd
 
 ![back-socialmedia](https://user-images.githubusercontent.com/91907661/145724575-6b2e2cb9-8736-4a44-a0da-33ec5b712fbd.png)
 
-
 - __Title Links__
 
   - You can click on the the Mind and Body Maintenance link and it will take you to the home page at any time, you can also click on the title for Ideas for healthy minds and bodies, and this will take you directly to the Suggestions Page, these title links apear on all pages.
-
 
 ![title-links](https://user-images.githubusercontent.com/91907661/145724081-9e58f592-7c15-4f93-a281-ba0bf4365b33.png)
 
@@ -36,7 +33,6 @@ Below is a list of features that I have on this site and will detail each indivd
 
   - The content on the home page includes some introduction info and links within each section to take you directly to the page
   - There is also a video that loads up automatically that you can choose to umute. Each video gives a good insite into what the correlating page is about
-
 
 ![home-page-content](https://user-images.githubusercontent.com/91907661/145724460-fcb18518-bc4e-4b08-8a22-67585d776290.png)
 
@@ -49,14 +45,19 @@ Below is a list of features that I have on this site and will detail each indivd
 
 ![sleep-exercise-mindfulness-content](https://user-images.githubusercontent.com/91907661/145724847-c3522d11-7450-41c9-ba89-ba32611bdaec.png)
 
-
 - __Suggestions Page__
 
   - This page will allow the user to enter some basic info on the form - drop down for age, text input for name and email address. There will be some radio button questions in there as well. All in all, it takes no time to complete and all these questions are required to be able to submit the form
   - The is a text box area for the user to enter suggestions and additional content for for the site, which I can implement and and give credit to the person suggesting it, if they want me to do so.
 
 ![suggestions-form](https://user-images.githubusercontent.com/91907661/145725027-bcb0b194-2261-4241-b489-1f37b94047a6.png)  
-<br>
+
+- __Suggestions Page Validation__
+ - There is validation as shown below to ensure that the users is entering all the required data, be it text: text and email format, and a requirement for the radio button options to also be clicked to submit the data on the form. An error message is displayed to the user 'Please fill out this field'.
+
+![suggestions-validation](https://user-images.githubusercontent.com/91907661/147268935-7a029374-4aea-4c2f-ad31-58739c534a2a.png)
+
+
 ## Testing and Lighthouse
 
 ![lighthouse](https://user-images.githubusercontent.com/91907661/146009134-118f8408-eefe-43b9-83e8-c9c7e1adab0d.png)
