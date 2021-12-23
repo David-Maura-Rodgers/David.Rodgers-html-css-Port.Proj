@@ -45,7 +45,7 @@ hr {
     margin: 1%;
 }
 
-/* Section and Aside - contents within */
+/* Aside - contents within */
 aside {
     float: right;
     width: 40%;
@@ -85,7 +85,7 @@ img {
     object-fit: cover;
 }
 
-section  {
+.home  {
 	display: flex;
 }
 
