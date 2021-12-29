@@ -2,11 +2,11 @@
 
 Mind and Body Maintenance is a site that I created to share some of my favourite sources on the topics of sleep, exercise and mindfulness. These sources will range from articles, journals, YouTube videos and websites from various experts and content creators. There is also an opportunity for users of the site to suggest their own content and suggestions for the site's function and appearance. 
 
-![home-page](https://user-images.githubusercontent.com/91907661/146028537-c58b2c6d-ebbf-48dc-846b-b5bab3ac19d7.png)
+![home-page](https://user-images.githubusercontent.com/91907661/147686839-8534ed06-a51b-471b-ae05-44b2d51e8a31.png)
 
 ## Features 
 
-Below is a list of features that I have on this site which I will detail individually - there is a nav menu for each page, and there are five pages in total - Home, Sleep, Exercise, Mindfulness and a suggestions page. The home page has an aside which also loads up a YouTube video for each section. Within the Sleep, Exercise and Mindfulness pages, there is an iframe, table and list items which link to various external sources. There is a form for the Suggestions page to record data entered by users of the site. There is also a footer which links the user to social media pages and a link which brings users back to the top of the page if they have scrolled down to the bottom.
+Below is a list of features that I have on this site which I will detail individually - there is a nav menu for each page, and there are five pages in total - Home, Sleep, Exercise, Mindfulness and a Suggestions page. The home page has an aside which also loads up a YouTube video for each section. Within the Sleep, Exercise and Mindfulness pages, there is an iframe, table and list items which link to various external sources. There is a form for the Suggestions page to record data entered by users of the site. There is also a footer which links the user to social media pages and a link which brings users back to the top of the page if they have scrolled down to the bottom.
 
 ### Each Feature Explained
 
