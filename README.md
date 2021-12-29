@@ -34,7 +34,7 @@ Below is a list of features that I have on this site which I will detail individ
   - The content on the home page includes some introduction info and links within each section to take you directly to the page they relate to
   - There is also a video that loads up automatically that you can choose to unmute. Each video gives a good insight into what the correlating page is about
 
-![home-page-content](https://user-images.githubusercontent.com/91907661/145724460-fcb18518-bc4e-4b08-8a22-67585d776290.png)
+![home-page-content](https://user-images.githubusercontent.com/91907661/147687864-c196493a-aca0-4dee-8c2d-6225e774ae05.png)
 
 - __Sleep, Exercise and Mindfulness Pages__
 
