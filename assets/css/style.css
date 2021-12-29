@@ -137,6 +137,22 @@ aside > p {
     list-style-position: inside;
 }
 
+/* Social Media section styles*/
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 0.5%; 
+    padding: 2% 5% 2% 5%;
+    color: navy;
+}
+
 /* Psuedo classes for links on pages */
 .page-titles a:link, .sub-titles a:link, td a:link, li a:link {
     color: #252525;
@@ -172,6 +188,7 @@ aside > p {
     text-decoration: none;
 }
 
+/* For blended colors on nav menu and form: https://blog.logrocket.com/advanced-effects-with-css-background-blend-modes-4b750198522a/ */
 /* Nav Menu styles*/
 #menu {
     font-size: 150%;
@@ -201,6 +218,7 @@ aside > p {
     border-bottom: 4px solid black;
 }
 
+/* To ensure that loaded videos loaded on page to a set height: https://css-tricks.com/fluid-width-video */
 /* Videos in Sleep, Execise and Midfulness pages */
 video {
     margin: 2% 35%;
@@ -281,7 +299,7 @@ table th, tr, td {
     text-decoration: none;
     text-align: center;
 }
-
+/* For skew function on Submit button: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew() */
 .join-button:hover {
     color: #252525;
     transform: skew(-10deg);
@@ -291,22 +309,6 @@ table th, tr, td {
 .join-button a:visited {
     color: #252525;
     text-decoration: none;
-}
-
-/* Social Media section styles*/
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 0.5%; 
-    padding: 2% 5% 2% 5%;
-    color: navy;
 }
 
 /* Media queries */
