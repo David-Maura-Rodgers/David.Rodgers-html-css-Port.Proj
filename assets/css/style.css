@@ -369,7 +369,7 @@ table th, tr, td {
         clear: both;
         text-align: center;
         display:inline-flex;
-        margin-right: 280px;
+        margin-right: 260px;
         margin-top: 2%;
         width: 50%;
     }
@@ -488,7 +488,7 @@ table th, tr, td {
         clear: both;
         text-align: center;
         display: inline-block;
-        margin-right: 130px;
+        margin-right: 210px;
         width: 50%;
         margin-top: 4%;
     }
@@ -552,13 +552,13 @@ table th, tr, td {
 }
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
 
     aside {
         clear: both;
         text-align: center;
         display: inline-block;
-        margin-right: 200px;
+        margin-right: 190px;
         width: 50%;
         margin-top: 4%;
     }
@@ -568,5 +568,96 @@ table th, tr, td {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    aside {
+        clear: both;
+        text-align: center;
+        display: inline-block;
+        margin-right: 130px;
+        width: 50%;
+        margin-top: 4%;
+    }
+
+    iframe {
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    aside {
+        clear: both;
+        text-align: center;
+        display: inline-block;
+        margin-right: 90px;
+        width: 50%;
+        margin-top: 4%;
+    }
+
+    iframe {
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .circle-images {
+        width: 200px;
+        height: 300px;
+        margin: auto;
+        margin-bottom: -18%;
+        padding-bottom: 25px;
+    }
+
+    #circle-images-sleep {
+        width: 200px;
+        height: 300px;
+        margin: auto;
+        margin-bottom: -18%;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 280px) {
+
+    aside {
+        clear: both;
+        text-align: center;
+        display: inline-block;
+        margin-right: 50px;
+        width: 50%;
+        margin-top: 4%;
+    }
+
+    iframe {
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .circle-images {
+        width: 200px;
+        height: 300px;
+        margin: auto;
+        margin-bottom: -18%;
+        padding-bottom: 25px;
+    }
+
+    #circle-images-sleep {
+        width: 200px;
+        height: 300px;
+        margin: auto;
+        margin-bottom: -18%;
+        padding-bottom: 20px;
     }
 }
