@@ -551,3 +551,13 @@ table th, tr, td {
     }
 }
 
+
+@media screen and (max-width: 950px) {
+
+    iframe {
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
