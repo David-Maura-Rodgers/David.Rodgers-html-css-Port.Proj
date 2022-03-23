@@ -311,8 +311,8 @@ table th, tr, td {
     text-decoration: none;
 }
 
-/* Media queries */
-/* For larger to medium screens size from 1200px wide and down */
+
+/* ------- MEDIA QUERIES FOR SEVERAL DEVICE SIZES FROM 1200PX DOWN ----------- */
 @media screen and (max-width: 1200px) {
 
     #menu li {
@@ -612,6 +612,108 @@ table th, tr, td {
         margin-bottom: -16%;
     }
 
+}
+
+
+@media screen and (max-width: 768px) {
+
+    aside {
+        clear: both;
+        text-align: center;
+        display: inline-block;
+        margin-right: 180px;
+        width: 50%;
+        margin-top: 4%;
+    }
+
+    iframe {
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .circle-images {
+        width: 200px;
+        height: 290px;
+        margin-right: 260px;
+        margin-bottom: -17%;
+    }
+
+    #circle-images-sleep {
+        width: 200px;
+        height: 290px;
+        margin-right: 260px;
+        margin-bottom: -16%;
+    }
+}
+
+
+/* @media screen and (max-width: 740px) {
+
+    aside {
+        clear: both;
+        text-align: center;
+        display: inline-block;
+        margin-right: 180px;
+        width: 50%;
+        margin-top: 4%;
+    }
+
+    iframe {
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .circle-images {
+        width: 200px;
+        height: 290px;
+        margin-right: 260px;
+        margin-bottom: -17%;
+    }
+
+    #circle-images-sleep {
+        width: 200px;
+        height: 290px;
+        margin-right: 260px;
+        margin-bottom: -16%;
+    }
+} */
+
+
+@media screen and (max-width: 680px) {
+
+    aside {
+        clear: both;
+        text-align: center;
+        display: inline-block;
+        margin-right: 160px;
+        width: 50%;
+        margin-top: 4%;
+    }
+
+    iframe {
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .circle-images {
+        width: 200px;
+        height: 290px;
+        margin-right: 230px;
+        margin-bottom: -17%;
+    }
+
+    #circle-images-sleep {
+        width: 200px;
+        height: 290px;
+        margin-right: 230px;
+        margin-bottom: -16%;
+    }
 }
 
 
