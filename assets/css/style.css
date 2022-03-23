@@ -313,6 +313,7 @@ table th, tr, td {
 
 
 /* ------- MEDIA QUERIES FOR SEVERAL DEVICE SIZES FROM 1200PX DOWN ----------- */
+
 @media screen and (max-width: 1200px) {
 
     #menu li {
@@ -488,7 +489,7 @@ table th, tr, td {
         clear: both;
         text-align: center;
         display: inline-block;
-        margin-right: 205px;
+        margin-right: 220px;
         width: 50%;
         margin-top: 4%;
     }
@@ -554,7 +555,6 @@ table th, tr, td {
 
 @media screen and (max-width: 820px) {
     
-
     #menu li {
         flex-wrap: wrap;
         justify-content: center;
@@ -613,74 +613,6 @@ table th, tr, td {
     }
 
 }
-
-
-@media screen and (max-width: 768px) {
-
-    aside {
-        clear: both;
-        text-align: center;
-        display: inline-block;
-        margin-right: 180px;
-        width: 50%;
-        margin-top: 4%;
-    }
-
-    iframe {
-        clear: both;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-    
-    .circle-images {
-        width: 200px;
-        height: 290px;
-        margin-right: 260px;
-        margin-bottom: -17%;
-    }
-
-    #circle-images-sleep {
-        width: 200px;
-        height: 290px;
-        margin-right: 260px;
-        margin-bottom: -16%;
-    }
-}
-
-
-/* @media screen and (max-width: 740px) {
-
-    aside {
-        clear: both;
-        text-align: center;
-        display: inline-block;
-        margin-right: 180px;
-        width: 50%;
-        margin-top: 4%;
-    }
-
-    iframe {
-        clear: both;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-    
-    .circle-images {
-        width: 200px;
-        height: 290px;
-        margin-right: 260px;
-        margin-bottom: -17%;
-    }
-
-    #circle-images-sleep {
-        width: 200px;
-        height: 290px;
-        margin-right: 260px;
-        margin-bottom: -16%;
-    }
-} */
 
 
 @media screen and (max-width: 680px) {
@@ -750,7 +682,6 @@ table th, tr, td {
         padding-bottom: 15px;
         margin-bottom: -14%;
     }
-
 }
 
 
@@ -769,7 +700,7 @@ table th, tr, td {
         clear: both;
         text-align: center;
         display: inline-block;
-        margin-right: 95px;
+        margin-right: 90px;
         width: 50%;
         margin-top: 4%;
     }
