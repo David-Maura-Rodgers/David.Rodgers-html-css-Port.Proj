@@ -494,7 +494,6 @@ table th, tr, td {
     }
     
     iframe {
-        overflow-x: hidden;
         clear: both;
         margin-left: auto;
         margin-right: auto;
@@ -565,7 +564,6 @@ table th, tr, td {
     }
 
     iframe {
-        overflow-x: hidden;
         clear: both;
         margin-left: auto;
         margin-right: auto;
