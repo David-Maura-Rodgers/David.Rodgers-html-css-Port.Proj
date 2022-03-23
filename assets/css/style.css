@@ -497,7 +497,7 @@ table th, tr, td {
         clear: both;
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
+        width: 50%;
     }
 
     video {
@@ -548,16 +548,5 @@ table th, tr, td {
 
     hr {
         display: none;
-    }
-}
-
-
-@media screen and (max-width: 950px) {
-
-    iframe {
-        clear: both;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
     }
 }
