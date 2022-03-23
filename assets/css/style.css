@@ -369,7 +369,7 @@ table th, tr, td {
         clear: both;
         text-align: center;
         display:inline-flex;
-        margin-right: 16rem;
+        margin-right: 280px;
         margin-top: 2%;
         width: 50%;
     }
@@ -378,7 +378,7 @@ table th, tr, td {
         clear: both;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 100%;
     }
 
     .suggestions-form {
@@ -488,16 +488,17 @@ table th, tr, td {
         clear: both;
         text-align: center;
         display: inline-block;
-        margin-right: 6em;;
+        margin-right: 200px;
         width: 50%;
         margin-top: 4%;
     }
     
     iframe {
+        overflow-x: hidden;
         clear: both;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 100%;
     }
 
     video {
@@ -548,5 +549,26 @@ table th, tr, td {
 
     hr {
         display: none;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    aside {
+        clear: both;
+        text-align: center;
+        display: inline-block;
+        margin-right: 200px;
+        width: 50%;
+        margin-top: 4%;
+    }
+
+    iframe {
+        overflow-x: hidden;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 }
