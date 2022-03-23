@@ -489,7 +489,7 @@ table th, tr, td {
         clear: both;
         text-align: center;
         display: inline-block;
-        margin-right: 220px;
+        margin-right: 200px;
         width: 50%;
         margin-top: 4%;
     }
@@ -564,6 +564,15 @@ table th, tr, td {
         margin: 0 auto;
     }
 
+    aside {
+        clear: both;
+        text-align: center;
+        display: inline-block;
+        margin-right: 200px;
+        width: 50%;
+        margin-top: 4%;
+    }
+    
     .circle-images {
         width: 200px;
         height: 290px;
