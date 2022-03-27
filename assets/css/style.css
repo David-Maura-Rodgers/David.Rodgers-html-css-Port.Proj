@@ -313,9 +313,9 @@ table th, tr, td {
 }
 
 
-/* ------- MEDIA QUERIES FOR SEVERAL DEVICE SIZES FROM 1200PX DOWN ----------- */
+/* ------- MEDIA QUERIES FOR SEVERAL DEVICE SIZES FROM 1280PX DOWN ----------- */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
 
     #menu li {
         flex-wrap: wrap;
@@ -371,7 +371,7 @@ table th, tr, td {
         clear: both;
         text-align: center;
         display:inline-flex;
-        margin-right: 260px;
+        margin-right: 310px;
         margin-top: 2%;
         width: 50%;
     }
@@ -381,6 +381,14 @@ table th, tr, td {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+    }
+
+    video {
+        clear: both;
+        margin-left: 320px;
+        margin-right: 90px;
+        width: 50%   !important;
+        height: 50%  !important;
     }
 
     .suggestions-form {
@@ -432,6 +440,27 @@ table th, tr, td {
 
     hr {
         display: none;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    video {
+        clear: both;
+        margin-left: 250px;
+        margin-right: 90px;
+        width: 50%   !important;
+        height: 50%  !important;
+    }
+
+    aside {
+        clear: both;
+        text-align: center;
+        display: inline-block;
+        margin-right: 250px;
+        width: 50%;
+        margin-top: 4%;
     }
 }
 
@@ -762,6 +791,26 @@ table th, tr, td {
         margin-bottom: -22%;
         padding-bottom: 15px;
     }
+
+    #circle-images-sleep img {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: navy solid 5px;
+        width: 90%;
+        height: 60%;
+        object-fit: cover;
+    }
+
+    .circle-images img {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        border: navy solid 5px;
+        width: 90%;
+        height: 60%;
+        object-fit: cover;
+    }
 }
 
 
@@ -785,7 +834,7 @@ table th, tr, td {
 
     video {
         clear: both;
-        margin-left: 75px;
+        margin-left: 72px;
         margin-right: -20px;
         width: 50%   !important;
         height: 50%  !important;
