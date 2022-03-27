@@ -779,7 +779,7 @@ table th, tr, td {
     .circle-images {
         width: 200px;
         height: 300px;
-        margin-right: 100px;
+        margin-right: 95px;
         margin-bottom: -22%;
         padding-bottom: 2px;
     }
@@ -787,29 +787,29 @@ table th, tr, td {
     #circle-images-sleep {
         width: 200px;
         height: 300px;
-        margin-right: 100px;
+        margin-right: 95px;
         margin-bottom: -22%;
         padding-bottom: 15px;
     }
+}
 
-    #circle-images-sleep img {
+
+@media screen and (max-width: 395px) {
+
+    .circle-images {
+        width: 200px;
         height: 300px;
-        width: 300px;
-        border-radius: 50%;
-        border: navy solid 5px;
-        width: 90%;
-        height: 60%;
-        object-fit: cover;
+        margin-right: 80px;
+        margin-bottom: -22%;
+        padding-bottom: 2px;
     }
 
-    .circle-images img {
+    #circle-images-sleep {
+        width: 200px;
         height: 300px;
-        width: 300px;
-        border-radius: 50%;
-        border: navy solid 5px;
-        width: 90%;
-        height: 60%;
-        object-fit: cover;
+        margin-right: 80px;
+        margin-bottom: -22%;
+        padding-bottom: 15px;
     }
 }
 
