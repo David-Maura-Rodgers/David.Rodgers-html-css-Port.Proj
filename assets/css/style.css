@@ -196,6 +196,7 @@ aside > p {
     line-height: normal;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     height: 100px;
     background: linear-gradient(rgba(220, 225, 230, 0.527), transparent),
                 linear-gradient(to top left, navy, transparent),
@@ -205,7 +206,7 @@ aside > p {
 
 #menu li {
     list-style-type: none;
-    margin-inline-start: 130pt;
+    /* margin-inline-start: 130pt; */
     padding-top: 35px; 
 }
 
@@ -503,7 +504,8 @@ table th, tr, td {
 
     video {
         clear: both;
-        margin-left: 25%;
+        margin-left: 220px;
+        margin-right: 90px;
         width: 50%   !important;
         height: 50%  !important;
     }
@@ -562,6 +564,14 @@ table th, tr, td {
         font-weight: 500;
         padding: 0;
         margin: 0 auto;
+    }
+
+    video {
+        clear: both;
+        margin-left: 190px;
+        margin-right: 80px;
+        width: 50%   !important;
+        height: 50%  !important;
     }
 
     aside {
@@ -669,6 +679,14 @@ table th, tr, td {
         margin-top: 4%;
     }
 
+    video {
+        clear: both;
+        margin-left: 130px;
+        margin-right: 90px;
+        width: 50%   !important;
+        height: 50%  !important;
+    }
+
     iframe {
         clear: both;
         margin-left: auto;
@@ -703,6 +721,14 @@ table th, tr, td {
         font-weight: 500;
         padding: 0;
         margin: 0 auto;
+    }
+
+    video {
+        clear: both;
+        margin-left: 100px;
+        margin-right: 80px;
+        width: 50%   !important;
+        height: 50%  !important;
     }
     
     aside {
@@ -739,55 +765,6 @@ table th, tr, td {
 }
 
 
-@media screen and (max-width: 400px) {
-
-    #menu li {
-        flex-wrap: wrap;
-        justify-content: center;
-        font-size: 60%;
-        font-weight: 500;
-        padding: 0;
-        margin: 0 auto;
-    }
-
-    .circle-images {
-        width: 200px;
-        height: 300px;
-        margin-right: 85px;
-        margin-bottom: -22%;
-        padding-bottom: 2px;
-    }
-
-    #circle-images-sleep {
-        width: 200px;
-        height: 300px;
-        margin-right: 85px;
-        margin-bottom: -22%;
-        padding-bottom: 15px;
-    }
-}
-
-
-@media screen and (max-width: 360px) {
-
-    .circle-images {
-        width: 200px;
-        height: 300px;
-        margin-right: 75px;
-        margin-bottom: -22%;
-        padding-bottom: 2px;
-    }
-
-    #circle-images-sleep {
-        width: 200px;
-        height: 300px;
-        margin-right: 75px;
-        margin-bottom: -22%;
-        padding-bottom: 15px;
-    }
-}
-
-
 @media screen and (max-width: 280px) {
 
     aside {
@@ -804,6 +781,23 @@ table th, tr, td {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
+    }
+
+    video {
+        clear: both;
+        margin-left: 75px;
+        margin-right: -20px;
+        width: 50%   !important;
+        height: 50%  !important;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    table th, tr, td {
+        padding: 0;
     }
 
     #menu li {
