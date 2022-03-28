@@ -441,7 +441,6 @@ table th, tr, td {
     }
 }
 
-
 @media screen and (max-width: 1024px) {
 
     video {
@@ -580,7 +579,6 @@ table th, tr, td {
     }
 }
 
-
 @media screen and (max-width: 820px) {
     
     #menu li {
@@ -658,7 +656,6 @@ table th, tr, td {
 
 }
 
-
 @media screen and (max-width: 680px) {
 
     aside {
@@ -691,7 +688,6 @@ table th, tr, td {
         margin-bottom: -16%;
     }
 }
-
 
 @media screen and (max-width: 576px) {
 
