@@ -206,7 +206,6 @@ aside > p {
 
 #menu li {
     list-style-type: none;
-    /* margin-inline-start: 130pt; */
     padding-top: 35px; 
 }
 
@@ -314,7 +313,6 @@ table th, tr, td {
 
 
 /* ------- MEDIA QUERIES FOR SEVERAL DEVICE SIZES FROM 1280PX DOWN ----------- */
-
 @media screen and (max-width: 1280px) {
 
     #menu li {
@@ -463,7 +461,6 @@ table th, tr, td {
         margin-top: 4%;
     }
 }
-
 
 @media screen and (max-width: 950px) {
     
@@ -627,7 +624,6 @@ table th, tr, td {
     }
 }
 
-
 @media screen and (max-width: 768px) {
 
     aside {
@@ -741,7 +737,6 @@ table th, tr, td {
     }
 }
 
-
 @media screen and (max-width: 420px) {
 
     #menu li {
@@ -795,7 +790,6 @@ table th, tr, td {
     }
 }
 
-
 @media screen and (max-width: 395px) {
 
     video {
@@ -822,7 +816,6 @@ table th, tr, td {
         padding-bottom: 15px;
     }
 }
-
 
 @media screen and (max-width: 280px) {
 
