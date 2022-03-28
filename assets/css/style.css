@@ -597,7 +597,7 @@ table th, tr, td {
 
     video {
         clear: both;
-        margin-left: 190px;
+        margin-left: 195px;
         margin-right: 80px;
         width: 50%   !important;
         height: 50%  !important;
@@ -706,6 +706,7 @@ table th, tr, td {
         margin-right: 130px;
         width: 50%;
         margin-top: 4%;
+        font-size: 14px;
     }
 
     video {
@@ -726,7 +727,7 @@ table th, tr, td {
     .circle-images {
         width: 200px;
         height: 290px;
-        margin-right: 165px;
+        margin-right: 170px;
         margin-bottom: -14%;
         padding-bottom: 15px;
     }
@@ -734,7 +735,7 @@ table th, tr, td {
     #circle-images-sleep {
         width: 200px;
         height: 290px;
-        margin-right: 165px;
+        margin-right: 170px;
         padding-bottom: 15px;
         margin-bottom: -14%;
     }
@@ -767,6 +768,7 @@ table th, tr, td {
         margin-right: 90px;
         width: 50%;
         margin-top: 4%;
+        font-size: 12px;
     }
 
     iframe {
@@ -779,7 +781,7 @@ table th, tr, td {
     .circle-images {
         width: 200px;
         height: 300px;
-        margin-right: 95px;
+        margin-right: 100px;
         margin-bottom: -22%;
         padding-bottom: 2px;
     }
@@ -787,7 +789,7 @@ table th, tr, td {
     #circle-images-sleep {
         width: 200px;
         height: 300px;
-        margin-right: 95px;
+        margin-right: 100px;
         margin-bottom: -22%;
         padding-bottom: 15px;
     }
@@ -796,10 +798,18 @@ table th, tr, td {
 
 @media screen and (max-width: 395px) {
 
+    video {
+        clear: both;
+        margin-left: 95px;
+        margin-right: 80px;
+        width: 50%   !important;
+        height: 50%  !important;
+    }
+
     .circle-images {
         width: 200px;
         height: 300px;
-        margin-right: 80px;
+        margin-right: 90px;
         margin-bottom: -22%;
         padding-bottom: 2px;
     }
@@ -807,7 +817,7 @@ table th, tr, td {
     #circle-images-sleep {
         width: 200px;
         height: 300px;
-        margin-right: 80px;
+        margin-right: 90px;
         margin-bottom: -22%;
         padding-bottom: 15px;
     }
@@ -823,6 +833,7 @@ table th, tr, td {
         margin-right: 65px;
         width: 50%;
         margin-top: 4%;
+        font-size: 10px;
     }
 
     iframe {
@@ -841,12 +852,13 @@ table th, tr, td {
     }
 
     table {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        margin-right: 0;
     }
     
     table th, tr, td {
         padding: 0;
+        font-size: 8px;
     }
 
     #menu li {
