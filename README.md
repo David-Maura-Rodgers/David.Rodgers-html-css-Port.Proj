@@ -116,7 +116,7 @@ I then had to create the code below, which takes the first image and it's contai
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://david-maura-rodgers.github.io/David.Rodgers-html-css-Port.Proj./
+The live link can be found here - https://david-maura-rodgers.github.io/David.Rodgers-html-css-Port.Proj
 
 ### Credits for all Content 
 
